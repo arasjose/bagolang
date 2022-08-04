@@ -6588,12 +6588,12 @@ section #book1.contactForm {
 
 
     #pricing{
-        margin-top: -140%;
-        top: -200px;
+        margin-top: -10%;
+        top: -10px;
         position: absolute;
     }
 
-    section .sectionslid{
+    section.sectionslid{
         margin-top: 100px;
         top: 100px;
     }
