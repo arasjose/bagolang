@@ -6590,11 +6590,12 @@ section #book1.contactForm {
     #pricing{
         margin-top: -20%;
         top: 60px;
+        padding-top: 50%;
     }
 
     section.sectionslid{
-        margin-top: 35px;
-        top: 35px;
+        margin-top: 45px;
+        top: 45px;
     }
 
 
