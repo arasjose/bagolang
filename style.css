@@ -6588,7 +6588,7 @@ section #book1.contactForm {
 
 
     #pricing{
-        margin-top: 0%;
+        margin-top: 100%;
         top: 1rem;
         position: absolute;
     }
