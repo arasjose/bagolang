@@ -6588,7 +6588,7 @@ section #book1.contactForm {
 
 
     #pricing{
-        margin-top: 200%;
+        margin-top: 150%;
         top: 0px;
     }
 
@@ -6616,7 +6616,6 @@ section #book1.contactForm {
     #pricing{
         top: 80px;
         margin-top: 70%;
-        position: absolute;
     }
 
 }
