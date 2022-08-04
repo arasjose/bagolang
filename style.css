@@ -6589,7 +6589,7 @@ section #book1.contactForm {
 
     #pricing{
         margin-top: 0%;
-        top: 0;
+        top: 1rem;
         position: absolute;
     }
 
