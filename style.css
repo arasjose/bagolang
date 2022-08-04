@@ -6588,14 +6588,14 @@ section #book1.contactForm {
 
 
     #pricing{
-        margin-top: 10%;
+        margin-top: 20%;
         top: 1rem;
         position: relative;
     }
 
     section.sectionslid{
-        margin-top: 65px;
-        top: 65px;
+        margin-top: 25px;
+        top: 25px;
     }
 
 
@@ -6616,7 +6616,7 @@ section #book1.contactForm {
 
     #pricing{
 margin-top: 60%;
-top: 150px;
+top: 100px;
     }
 
 }
