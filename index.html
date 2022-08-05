@@ -101,13 +101,17 @@
 
     <nav id="bottom" class="bottom">
   <ul class="bottomUl">
-    <li><a href="#home"><i class="fas fa-home"></i></a></li>
+    <li class="botpink"><a href="#home"><i class="fas fa-home"><p></p></i></a></li>
+
     <li><a href="#aboutus"><i class="fas fa-info"></i></a></li>
-    <li><a href="#serveee"><i class="fa-solid fa-soap"></i></a></li>
+<a href="#serveee">
+    <li class="active"></li></a>
+
        <li><a href="#pricing"><i class="fa-solid fa-euro-sign"></i></a></li>
 
     <li><a href="#contact"><i class="fas fa-phone"></i></a></li>
 
+ <img src="kamay.PNG" alt="">
   </ul>
 </nav>
 
@@ -1399,7 +1403,37 @@
 </footer>
 
 
+
 <script src="scroll.js"></script>
+
+
+ <!--<script type="text/javascript">
+  $(function(){
+    var scroll = $(document).scrollTop();
+    var navHeight = $('.bottom').outerHeight();
+
+    $(window).scroll(function(){
+      var scrolled =  $(document).scrollTop();
+      if(scrolled > navHeight){
+        $('.bottom').addClass('animateb');
+      }
+      else{
+        $('.bottom').removeClass('animateb');
+      }
+    })
+
+    if(scrolled > scroll){
+      $('.bottom').removeClass('stickyb');
+    }
+else{
+  $('.bottom').addClass('stickyb');
+}
+scroll =  $(document).scrollTop();
+    })
+</script> -->
+
+
+
 
 <script>
 const observer = new IntersectionObserver (entries => {

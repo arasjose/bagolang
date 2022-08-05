@@ -11,7 +11,6 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-
 }
 
 
@@ -291,14 +290,17 @@ list-style: none;
         inset 0px -11px 8px -10px rgb(0 0 0/ 25%);
   left: 0;
   display: none;
+transition: 2s;
 }
 
 .bottom ul{
     list-style: none;
+    transition: 2s;
 }
 .bottom ul li i{
     color: aliceblue;
 font-size: 15px;
+transition: 2s ;
 }
 
 .bottom ul li{
@@ -306,51 +308,103 @@ font-size: 15px;
     left: 50%;
     bottom: 50%;
     transform: translate(-50%, 50%);
-    transition: all .7s;
-
+    transition: 2s;
 }
 
 .bottom ul li:nth-child(1){
     left: 10%;
-    padding: 17px 18px;
+    padding: 22px 23px;
+    transition: 2s;
 }
 
 .bottom ul li:nth-child(2){
     left: 30%;
-        padding: 17px 18px;
+        padding: 22px 23px;
+        transition: 2s;
 
 }
 
+li.active{
+    transition: 2s;
+}
 
 .bottom ul li:nth-child(3){
     left: 50%;
-        padding: 17px 18px;
-
+        padding: 22px 23px;
+transition: 2s;
 }
 
 
 .bottom ul li:nth-child(4){
     left: 70%;
-        padding: 17px 18px;
-
+        padding: 22px 23px;
+transition: 2s;
 }
 
 .bottom ul li:nth-child(5){
     left: 90%;
-        padding: 17px 18px;
-
+        padding: 22px 23px;
+transition: 2s;
 }
 
-.bottom ul li:hover{
-bottom: 70%;
+
+
+
+.bottom ul li.active{
+bottom: 100%;
 background: linear-gradient(to left, #6595E6, #1B4A9B);
 border-radius: 50%;
-
+padding: 9%;
+transition: 2s;
 }
 
+.bottom ul li.active{
+    transition: 2s;
+    left: 50%;
+}
 
+.bottom ul li.active:hover{
+background: linear-gradient(to left, rgb(45, 246, 255), rgb(53, 179, 209) );
+color: black;
+transition: 2s;
+}
 
+.bottom ul li i:hover{
+    color: rgb(45, 246, 255);
+    transition: 2s;
+}
 
+.bottom.animateb{
+    top: 150px
+}
+
+li.active{
+    left: 65%;
+}
+
+.bottom.stickyb{
+    top: 20px;
+    margin-top: 20%;
+    z-index: 9999999999999999999999999999999;
+}
+
+.bottom p{
+    font-size: 10px;
+    left: 11px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.bottom img{
+    font-size: 15px;
+    height: 138%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 25%;
+    margin-top: -9%;
+    pointer-events: none;
+}
 
 
 
