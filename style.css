@@ -411,7 +411,7 @@ transition: 2s;
 
 }
 
-.bottom img{
+.imgb img{
     font-size: 15px;
     height: 126%;
     justify-content: center;
@@ -423,7 +423,7 @@ transition: 2s;
 }
 
 .bottom .servicesb{
-margin-top: 36px;
+margin-top: 34px;
     font-size: 7px;
     left: 46.5%;
     color: white;
@@ -3967,11 +3967,11 @@ width: 68px;
 
     .home .fade-in1 img{
     width: 65px;
-visibility: visible;
+    visibility: visible;
     overflow: hidde0n;
-    margin-left: -33px;
-    top: 286px;
-position: relative;
+    margin-left: -72px;
+    top: 305px;
+    position: relative;
 }
 
     .home .fade-in2 img{
@@ -4264,6 +4264,10 @@ header img {
     display: block;
 }
 
+.bottom img{
+    margin-left: -1.9%;
+    margin-top: -8.5%;
+}
 
 .cardhid{
     display: none;
@@ -6076,6 +6080,12 @@ section.sectionslid{
     padding-top: 25%;
 }
 
+
+.imgb img {
+    margin-left: 1.4%;
+    margin-top: -8.5%;
+}
+
 header label img{
 visibility: visible;
 display: none;
@@ -6930,8 +6940,13 @@ section #book1.contactForm{
 
     header img {
     transform: scaleY(1);
-    left: 10.2%;
+    left: 33.2%;
     top: 0;
+}
+
+.imgb img {
+     margin-left: -2.2%;
+    margin-top: -8.5%;
 }
 
 .fbfbfb{
@@ -8422,6 +8437,12 @@ position: relative;
     left: 5.8%;
     }
 
+.imgb img{
+    margin-left: 27.9%;
+    margin-top: -7.5%;
+    height: 103%;
+
+    }
     a#btnhomefoot.fade-inbook.btn {
     margin-left: 18%;
 }
