@@ -6893,8 +6893,10 @@ section #book1.contactForm {
     position: relative;
     justify-content: left;
     border-radius: 15px;
-    padding-top: 15%;
+    padding-top: 15;
+    top: 20px;
 }
+
 
 
 .checkbox p {
