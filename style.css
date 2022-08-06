@@ -6359,20 +6359,20 @@ align-content: center;
 
     .home .content h3{
 
-    font-size: 35px;
+    font-size: 32px;
     margin-top: -10%;
 }
 
 .home .content p{
     line-height: 1.5;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 550;
     letter-spacing: 3px;
 
 }
 
 .home .content a.btn{
-font-size: 15px;
+font-size: 14px;
     font-style: italic;
     letter-spacing: 3px;
     text-transform: uppercase;
