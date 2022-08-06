@@ -1127,6 +1127,7 @@ margin-left: 0rem;
 .yeldiagrp{
  margin-top: -140%;
     position: absolute;
+    margin-left: -7%;
 }
 
 .yeldiagrp5{
@@ -1135,30 +1136,30 @@ margin-left: 0rem;
 }
 
 .yeldia1 img{
- height: 50px;
-    width: 46px;
+ height: 33px;
+    width: 33px;
     margin-left: 4rem;
     margin-top: 1rem;
 }
 
 .yeldia2 img{
-     height: 50px;
-    width: 46px;
-    margin-left: -4rem;
+ height: 33px;
+    width: 33px;
+    margin-left: -2rem;
     margin-top: 1rem;
 }
 
 .yeldia3 img{
-height: 50px;
-    width: 46px;
-    margin-left: -8.5rem;
+ height: 33px;
+    width: 33px;
+    margin-left: -5rem;
     margin-top: 1rem;
 }
 
 .yeldia4 img{
-    height: 50px;
-    width: 46px;
-margin-left: 0rem;
+ height: 33px;
+    width: 33px;
+margin-left: 1rem;
     margin-top: 1rem;
 }
 
@@ -1671,11 +1672,12 @@ button.aboutMe5{
 
 
 .contentprice1{
-    margin-top: -8%;
+    margin-top: -3%;
 }
 
 .pinkdiagrp{
     margin-top: -5%;
+    margin-left: -7%;
 }
 
 .card .button1{
@@ -3948,7 +3950,7 @@ position: absolute;
         display: none;
     }
 
-    
+
 #cardhide{
     display: none;
 }
@@ -3959,15 +3961,15 @@ position: absolute;
     }
 
     .name-profession .serve{
-        font-size: 25px;
+        font-size: 20px;
     }
 
 .name-profession .price{
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .name-profession .descrip {
-    font-size: 15px;
+    font-size: 13px;
 
 }
 
@@ -4159,12 +4161,13 @@ name-profession1 .serve {
 
 .yeldiagrp {
 margin-right: 5%;
-margin-top: -150%;
+margin-top: -129%;
 }
 
 .pinkdiagrp {
     position: absolute;
-    margin-top: -158%;
+    margin-top: -129%;
+        margin-left: -4%;
 }
 
 .container{
@@ -6127,7 +6130,7 @@ section #book1.contactForm {
      padding-top: 20%;
     position: relative;
     background: transparent;
-    margin-top: 75%;
+    margin-top: 70%;
     top: -50px;
     margin-left: 4px;
 }
@@ -6408,7 +6411,7 @@ position: relative;
 
 section.sectionslid{
     position: relative;
-    padding-top: 20%;
+    padding-top: 16%;
     width: 367px;
     
 }
@@ -6443,7 +6446,7 @@ position: relative;
 
 
 .card .card-content{
-    height: 590px;
+    height: 95%;
     top: -6%;
     box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
     border-radius: 20px;
