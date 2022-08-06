@@ -6224,8 +6224,9 @@ form{
 
 .fbfbfb{
     margin-left: 9%;
-    margin-top: 0%;
-    top: 0;
+    margin-top: -10%;
+    top: -110px;
+    position: relative;
 }
 .minmin{
     font-size: 10px;
@@ -6685,16 +6686,16 @@ background: linear-gradient(to bottom right, #6595E6 45%, #1B4A9B);
 
 
 .alert-success{
-width: 367px;
+    width: 367px;
     margin-left: -14%;
-    height: 591px;
+    height: 569px;
     font-size: 3rem;
     padding: 0%;
     border-radius: 15px;
     display: inline-block;
     align-items: center;
-    margin-top: -18%;
-    padding-top: 65%;
+    margin-top: -10%;
+    padding-top: 47%;
     padding-left: 1%;
     justify-content: center;
     text-align: center;
