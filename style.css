@@ -6224,7 +6224,8 @@ form{
 
 .fbfbfb{
     margin-left: 9%;
-    margin-top: -500%;
+    margin-top: 0%;
+    top: 0;
 }
 .minmin{
     font-size: 10px;
