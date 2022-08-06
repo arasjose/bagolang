@@ -761,7 +761,7 @@
 
 
             <div class="button1">
-              <a href="#home"  style="background-image: linear-gradient(to right, #d660b5, #ef6298 );" class="aboutMe1">Book Now</a>
+              <a id="btnhome1" href="#home"  style="background-image: linear-gradient(to right, #d660b5, #ef6298 );" class="aboutMe1" onclick="toggle()" onclick="click()">Book Now</a>
             </div>
 
 
@@ -798,28 +798,30 @@
             <div class="name-profession">
               <span class="serve">Window Cleaning</span>
               <span class="price">€30 <strong style="font-size: 12px;     top: -5px; position: relative;">per hour</strong></span>
-              <span class="descrip">3x a week or<br>Everyday cleaning<br> Minimum of 3 hours <br><em> 24% vat included </em></span>
+              <span class="descrip">3x a week or<br>Everyday cleaning<br><em> 24% vat included </em></span>
 
             </div>
            
 
             <div class="name-profession">
                <span class="price">€33 <strong style="font-size: 12px;     top: -5px; position: relative;">per hour</strong></span>
-              <span class="descrip">2x a week <br> Minimum of 3 hours <br> <em> 24% vat included</em></span>
+              <span class="descrip">2x a week  <br> <em> 24% vat included</em></span>
 
             </div>
 
 
             <div class="name-profession">
                <span class="price">€36 <strong style="font-size: 12px;     top: -5px; position: relative;">per hour</strong></span>
-              <span class="descrip">One time-cleaning <br> Minimum of 3 hours  <br><em> 24% vat included</em></span>
+              <span class="descrip">One time-cleaning <br><em> 24% vat included</em></span>
 
             </div>
 
           </div>
 
 
-
+ <div class="minmin">
+            <span class="descrip">Minimum of 3 hours per booking</span>
+          </div>
 
                <div class="button1">
                             <a href="#home"  style="background-image: linear-gradient(to left, #f9e867, #eac71a);" class="aboutMe2">Book Now</a>
@@ -1630,6 +1632,24 @@ slidesPerGroup: 3
     document.getElementById("popup-1").classList.toggle("active");
   }
 </script>
+
+
+<script>
+
+    document.getElementById("btnhome1").addEventListener("click", function()
+  {
+    var bookhome=document.getElementById("contact book1");
+    if(bookhome.style.display=="block")
+    {
+      bookhome.style.display="none";
+    }
+    else
+    {
+      bookhome.style.display="block";
+
+    }
+  })
+  </script>
 
 
 
