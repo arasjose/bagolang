@@ -3973,7 +3973,7 @@ position: absolute;
 
 
 .formBoxpop{
-    padding-top: 4%;
+    padding-top: 6%;
 }
 
 
@@ -6780,7 +6780,7 @@ margin-top: 12.5%;
 
 .headngform h2{
 font-size: 30px;
-    margin-top: 8%;
+    margin-top: 10%;
     position: absolute;
     color: white;
     opacity: 0.9;
@@ -6795,7 +6795,7 @@ label.fullname{
 
 #book1 input#send{
 align-items: center;
-    padding: 3.5%;
+    padding: 2%;
     border: none;
     width: 45%;
     color: white;
@@ -6824,7 +6824,7 @@ align-items: center;
 
 input#btn5.btn1{
     align-items: center;
-    padding: 4%;
+    padding: 2%;
     border: none;
     width: 45%;
     color: white;
