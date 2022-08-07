@@ -1,14 +1,19 @@
-const loader = document.querySelector('.loader');
-const content = document.querySelector('.home .content');
+var lastScroll,navBar;
+lastScroll = 0;
+navBar = document.getElementById("bottom");
 
-function init(){
-	setTimeout(() => {
-	loader.style.opacity = 0;
-	loader.style.display = 'none';
+window.onscroll = function(){
+	var currentScroll = pageYOffset; 
+	//console.log(scurrentScroll)
 
-	content.style.display = 'block';
-	setTimeout(() => (content.style.opacity = 1), 50);
-	}, 4000);
+
+	if(currentScroll - lastScroll > 0){
+		navBar.setAttribute("class" , "hideNav");
+		//console.log("scroll down")
+	}else{
+		navBar.setAttribute("class" , "showNav");
+		//console.log("scroll up")
+	}
+
+	lastScroll = currentScroll;
 }
-
-init();
