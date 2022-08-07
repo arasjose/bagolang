@@ -6770,12 +6770,14 @@ position: absolute;
 margin-top: 13%;
     top: 46%;
  left: 50%;
- -webkit-transform: translate(-50%, -50%);
- transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%) ;
   -webkit-backface-visibility: hidden;
   overflow: visible;
   padding-top: 10%;
+  transition: transform 0.4s, top 0.4s;
 }
+
+
 
 
 .headngform h2{
