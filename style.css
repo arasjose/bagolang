@@ -6625,88 +6625,14 @@ margin-left: 3%;
     top:0;
     margin-left: 22.5px;
     }
-}
-
-
-@media screen and (max-width:  414px)
-              and (max-height: 736px){
-
-
-    .headingppp{
-        margin-top: -35px;
-        position: absolute;
-    }
-    #pricing{
-        margin-top: 120%;
-    }
-
-    #contact{
-        margin-top: -90%;
-    }
-
-    .fbfbfb{
-        margin-top: 70%;
-    }
-
-    .popop{
-        margin-top: -5%;
-    }
-
-    section #book1.contactForm{
-    margin-top: -11%;
-    max-height: 43%;
-    max-width: 98%;
-}
-
-.card{
-    height: 75%;
-    width: 90%;
-}
-
-.name-profession .serve {
-    font-size: 19px;
-}
-
-.name-profession .price {
-    font-size: 22px;
-}
-
-.name-profession .descrip {
-    font-size: 12px;
-}
-
-.pinkdiagrp {
-    position: absolute;
-    margin-top: -119%;
-    margin-left: -2%;
-}
-
-
-.yeldiagrp {
-    position: absolute;
-    margin-top: -119%;
-    margin-left: -2%;
-}
-
-#fut {
-    width: 100%;
-    height: 62vh;
-    margin-top: 25%;
-
-}
 
 
 
 
 
-section .containercontact .contactinfo {
-
-}
 
 
-section .containercontact .contactForm .formBox {
 
-    }
 
 section #book1.contactForm{
     height: 700px;
@@ -7023,7 +6949,72 @@ section #book1.contactForm {
 
 
 
+@media screen and (max-width:  414px)
+              and (max-height: 736px){
 
+
+    .headingppp{
+        margin-top: -35px;
+        position: absolute;
+    }
+    #pricing{
+        margin-top: 120%;
+    }
+
+    #contact{
+        margin-top: -90%;
+    }
+
+    .fbfbfb{
+        margin-top: 70%;
+    }
+
+    .popop{
+        margin-top: -5%;
+    }
+
+    section #book1.contactForm{
+    margin-top: -11%;
+    max-height: 43%;
+    max-width: 98%;
+}
+
+.card{
+    height: 75%;
+    width: 90%;
+}
+
+.name-profession .serve {
+    font-size: 19px;
+}
+
+.name-profession .price {
+    font-size: 22px;
+}
+
+.name-profession .descrip {
+    font-size: 12px;
+}
+
+.pinkdiagrp {
+    position: absolute;
+    margin-top: -119%;
+    margin-left: -2%;
+}
+
+
+.yeldiagrp {
+    position: absolute;
+    margin-top: -119%;
+    margin-left: -2%;
+}
+
+#fut {
+    width: 100%;
+    height: 62vh;
+    margin-top: 25%;
+}
+}
 
 
 

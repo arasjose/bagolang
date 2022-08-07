@@ -160,6 +160,7 @@
 </p>
         <a style="margin-left: 5%;"  id="btnhome" onclick="toggle()" onclick="click()" class="btn">Book a cleaning</a>
     </div>
+    
 
 
 
@@ -390,11 +391,10 @@
 
         <div class="inputBox w100">
 
-                  <input type="submit" value="Send" id="send" class="#btn1" onclick="message()">
+                 <input type="submit" value="Send" id="send" class="#btn1" onclick="message()">
 
 
-                <input type="submit" id="btn5" class="btn1" value="Close" onclick="toggle()">
-
+                <input type="submit" id="btn5" class="btn1" value="Close"  onclick="toggle()">
 
     
         <div class="message">
@@ -1779,6 +1779,38 @@ slidesPerGroup: 3
     else
     {
       bookhome.style.display="block";
+
+    }
+  })
+
+
+      document.getElementById("btn11").addEventListener("click", function()
+  {
+    var book1=document.getElementById("contact book1");
+    if(book1.style.display=="block")
+    {
+      book1.style.display="none";
+    }
+    else
+    {
+      book1.style.display="block";
+
+    }
+  })
+
+
+
+
+    document.getElementById("btn3").addEventListener("click", function()
+  {
+    var book3=document.getElementById("contact book3");
+    if(book3.style.display=="block")
+    {
+      book3.style.display="none";
+    }
+    else
+    {
+      book3.style.display="block";
 
     }
   })
