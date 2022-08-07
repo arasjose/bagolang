@@ -4064,7 +4064,7 @@ width: 68px;
     visibility: visible;
     overflow: hidden;
     margin-left: 161px;
-    top: -130px;
+    top: -156px;
     position: relative;
 }
 
@@ -4271,6 +4271,7 @@ text-align: center;
     position: relative;
     margin-top: -100%;
     margin-left: -20px;
+
 }
 
 .custom-shape-divider-bottom-1644402715 {
@@ -6766,8 +6767,8 @@ position: absolute;
     z-index: 1000000;
     color: black;
  margin-left: 0;
-margin-top: 12%;
-    top: 45%;
+margin-top: 13%;
+    top: 46%;
  left: 50%;
  -webkit-transform: translate(-50%, -50%);
  transform: translate(-50%, -50%);
