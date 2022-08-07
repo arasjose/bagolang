@@ -6670,7 +6670,7 @@ textarea {
     background: transparent;
 border: 1px solid #bababa;
     color: black;
-    font-size: 16px;
+    font-size: 13px;
     padding-top: 15px;
     padding-left: 8px;
     width: 100%;
@@ -6698,7 +6698,7 @@ background: linear-gradient(to bottom right, #6595E6 45%, #1B4A9B);
     border-radius: 15px;
     display: inline-block;
     align-items: center;
-    margin-top: -10%;
+    margin-top: -14%;
     padding-top: 47%;
     padding-left: 1%;
     justify-content: center;
