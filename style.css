@@ -4461,7 +4461,7 @@ header .logo {
     position: absolute;
     font-size: 2rem;
     color: #145a92;
-    margin-left: 40%;
+    margin-left: 39.5%;
 }
 
 body{
@@ -6397,7 +6397,7 @@ background: white;
 
     header img{
             transform: scaleY(1);
-    left: 29.2%;
+    left: 28.7%;
     top: 2px;
     }
 
@@ -6821,7 +6821,7 @@ position: absolute;
  transform: translate(-50%, -50%);
   -webkit-backface-visibility: hidden;
   overflow: visible;
-  padding-top: 25%;
+  padding-top: 23%;
 }
 
 
