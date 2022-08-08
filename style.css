@@ -30,7 +30,6 @@ html{
 body{
     background: white;
     overflow: hidden;
-    margin-top: -40px;
 }
 
 section{
@@ -188,7 +187,7 @@ display: flex;
   max-width: 100%;
   height: auto;
 z-index: 3000;
-margin-top:-35px;
+margin-top:-3px;
    cursor: pointer;
        transition: all .3s linear;
 }
@@ -254,16 +253,6 @@ background: linear-gradient(to left, #6595E6, #1B4A9B);
 }
 
 
-#google_translate_element p{
-        color: white;
-    position: absolute;
-    margin-top: 28px;
-    font-size: 9px;
-    letter-spacing: 1px;
-    margin-left: -13px;
-}
-
-
 .home{
     display: flex;
     align-items: center;
@@ -310,6 +299,36 @@ margin-left: 45.5%;
     position: absolute;
     top: 49%;
 }
+
+
+.loaderr{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: vanish 8s forwards;
+    animation-delay: 3s;
+}
+
+.loaderr img{
+height: 45%;
+}
+
+.disappear{
+    animation: vanish  8s forwards;
+}
+
+@keyframes vanish{
+    100%{
+        opacity: 0;
+visibility: hidden;    }
+}
+
 
 
 
@@ -522,8 +541,7 @@ margin-top: 34px;
 .bottom .contactb{
     left: -5px;
     position: relative;
-    font-weight: 600;
-    white-space: nowrap;
+        font-weight: 600;
 
 }
 
@@ -584,6 +602,8 @@ visibility: visible;
     -0-animation: fadeIn ease 2s;
     -ms-animation:  fadeIn ease 2s;
     animation-iteration-count: infinite;
+        animation-delay: 9s;
+
 }
 
 .fadepink1{
@@ -593,6 +613,8 @@ visibility: visible;
     -0-animation: fadeIn ease 2s;
     -ms-animation:  fadeIn ease 2s;
     animation-iteration-count: infinite;
+        animation-delay: 9s;
+
 }
 .fade-in1{
     animation: fadeIn ease 3;
@@ -601,6 +623,8 @@ visibility: visible;
     -0-animation: fadeIn ease 3s;
     -ms-animation:  fadeIn ease 3s;
     animation-iteration-count: infinite;
+        animation-delay: 9s;
+
 }
 
 .fade-in2{
@@ -610,6 +634,8 @@ visibility: visible;
     -0-animation: fadeIn ease 4s;
     -ms-animation:  fadeIn ease 4s;
     animation-iteration-count: infinite;
+        animation-delay: 9s;
+
 }
 
 .fade-in3{
@@ -618,6 +644,7 @@ visibility: visible;
     -moz-animation:  fadeIn ease 6s;
     -0-animation: fadeIn ease 6s;
     -ms-animation:  fadeIn ease 6s;
+    animation-delay: 9s;
     animation-iteration-count: infinite;
 }
 
@@ -628,11 +655,12 @@ visibility: visible;
 
 @keyframes fadeIn{
     0% {opacity: 0;}
+    50%{opacity: 0.5;}
     100% {opacity: 1;}}
 
 @-moz-keyframes fadeIn{
     0% {opacity: 0;}
-    100% {opacity: 1;}}
+    100% {opacity: ;}}
 
 @-webkit-keyframes fadeIn {
     0% {opacity: 0;}
@@ -4040,17 +4068,6 @@ position: absolute;
         display: none;
     }
 
-.NN img#n{
-    left: 7.5%;
-    top: 51%;
-}
-
-
-#google_translate_element {
-margin-top: -1%;
-left: 86%;
-}
-
 
 #cardhide{
     display: none;
@@ -4103,6 +4120,7 @@ width: 68px;
     margin-left: 161px;
     top: -156px;
     position: relative;
+    animation-delay: 11ss;
 }
 
 .contentprice1{
@@ -4130,6 +4148,7 @@ width: 68px;
     margin-left: -72px;
     top: 260px;
     position: relative;
+    animation-delay: 11s;
 }
 
     .home .fade-in2 img{
@@ -4139,6 +4158,8 @@ width: 70px;
     margin-left: 330px;
     top: 91px;
     position: relative;
+        animation-delay: 11s;
+
 }
 
     .home .fade-in3 img{
@@ -4148,6 +4169,8 @@ width: 70px;
     margin-left: -200px;
     top: 111px;
     position: relative;
+        animation-delay: 11s;
+
 }
 
     section{
@@ -4169,10 +4192,6 @@ width: 70px;
     height: auto;
     width: cover;
     border-radius: 20px;
-}
-
-body{
-    margin-top: -40px;
 }
 
 .blobsmall {
@@ -4442,14 +4461,13 @@ header .logo {
     position: absolute;
     font-size: 2rem;
     color: #145a92;
-    margin-left: 18%;
+    margin-left: 40%;
 }
 
 body{
 overflow-x: hidden;
 margin: 0;
 padding: 0;
-margin-top: -40px;
 }
 
 .inputBox.w100{
