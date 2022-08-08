@@ -297,7 +297,7 @@ p.serveb{
 margin-left: 45.5%;
     color: white;
     position: absolute;
-    top: 50%;
+    top: 49%;
 }
 
 
@@ -392,7 +392,7 @@ transition: 2s;
 }
 
 .bottom ul li:nth-child(5){
-    left: 71%;
+    left: 72%;
         padding: 22px 23px;
 transition: 2s;
 }
