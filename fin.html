@@ -29,7 +29,7 @@
     <!-- ===== Fontawesome CDN Link ===== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
         
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="finstyle.css">
 
     <link rel="icon" href="pnslogo.jpg" type="image/x-icon">
 
@@ -116,12 +116,12 @@
     <label for="menu-bar"><img style="top: 20px;" src="menu.png"> &nbsp</label>
 
     <nav id="navbar" class="navbar">
-        <a class="strong1"  style="color: white;" href="#home">  Home </a>
-        <a  style="color: white;" href="#aboutus"> <strong1> About Us </strong1> </a>
-        <a  style="color: white;" href="#serveee"> <strong1> Services </strong1> </a>
+        <a class="strong1"  style="color: white;" href="#home">  Kotisivu </a>
+        <a  style="color: white;" href="#aboutus"> <strong1> Meistä </strong1> </a>
+        <a  style="color: white;" href="#serveee"> <strong1> Palvelut </strong1> </a>
 
-        <a style="color: white;" href="#pricing">Pricing</a>
-        <a style="     background: linear-gradient(to right, #29c8cf 70%, #35b3d1); border-radius: 20px; color: white;" href="#contact" class="active">Contact</a>
+        <a style="color: white;" href="#pricing">Hinnoittelu</a>
+        <a style="     background: linear-gradient(to right, #29c8cf 70%, #35b3d1); border-radius: 20px; color: white;" href="#contact" class="active">Yhteystiedot</a>
     </nav>
 
     <nav id="bottom" class="bottom">
@@ -143,10 +143,6 @@
 </div>
   </ul>
 </nav>
-
- <div class="button1">
-              <a href="fin.html">Translate to Finnish</a>
-            </div>
 
 
 </header>
@@ -177,15 +173,19 @@
 
     <div class="content">
 
+
+
+
+
         <h3 style="color: white; margin-left: 5%; opacity: 98%;">
-        We do things <em> PRECISELY </em> AND <em> SYSTEMATICALLY</em> </span></h3>
+        <em>Tarkkuus</em> ja <em> SYSTEMAATTISUUS </em> on tapamme </span></h3>
         <p style="color: white; margin-left: 5%; opacity: 98%; ">
-         A systematical partner <br>
-          for companies pursuing the <br>
-          cleanest work environment
+         Systemaattinen kumppani <br>
+          yrityksille jotka pyrkivät  <br>
+          puhtaimpaan työympäristöön
         
 </p>
-        <a style="margin-left: 5%;"  id="btnhome" onclick="toggle()" onclick="click()" class="btn">Book a cleaning</a>
+        <a style="margin-left: 5%;"  id="btnhome" onclick="toggle()" onclick="click()" class="btn">Varaa Siivous</a>
     </div>
     
 
@@ -214,7 +214,7 @@
  <section class="popop" id="contact bookhome">
         <div  class="bookhome">
   <div class="headngform">
-            <h2>Let us do the work!</h2>
+            <h2>Anna meidän tehdä työ</h2>
       </div>
     <div class="contactinfo">
     <div id="book1" class="contactForm">
@@ -229,7 +229,7 @@
 
 
                     <div class="form-group mb-3">
-                        <label for="name" class="form-label">Full Name</label>
+                        <label for="name" class="form-label">Koko Nimi</label>
                         <input type="text" id="name" name="name" class="form-control" placeholder="" required>
                     </div>
 
@@ -237,32 +237,32 @@
 
 
                             <div class="form-group mb-3">
-                        <label for="email" class="form-label">Email Address</label>
+                        <label for="email" class="form-label">Sähköpostiosoite</label>
                         <input type="email" id="email" name="email" class="form-control" placeholder="" required>
                     </div>
 
 
                     <div class="form-group mb-3">
-                        <label for="number" class="form-label">Contact Number</label>
+                        <label for="number" class="form-label">Yhteysnumero</label>
                         <input type="number" id="number" name="number" class="form-control" placeholder="" required>
                     </div>
 
     </div>
 
                     <div style="margin-top: -3%; " class="form-group mb-3 mb-4">
-                        <label for="service" class="form-label">Choose service:</label>
+                        <label for="service" class="form-label">Valitse palvelu:</label>
                         <select type="service" id="service" name="service" class="form-control" placeholder="" required>
                               <option value="none"></option>
-    <option value="Window Cleaning">Window Cleaning</option>
-    <option value="Home Cleaning">Home Cleaning</option>
-    <option value="Gardening">Gardening</option>
-        <option value="Touring Caravan">Touring Caravan</option>
+    <option value="Window Cleaning">Ikkunanpesut</option>
+    <option value="Home Cleaning">Kotisiivous</option>
+    <option value="Gardening">Puutarhanhoito</option>
+        <option value="Touring Caravan">Matkailuvaunu</option>
                         </select>
 
 
 
                         <div class="calendar">
-                          <label for="date" class="form-label">Choose a schedule:</label>
+                          <label for="date" class="form-label">Valitse aikataulu:</label>
                           <input type="date" id="date" name="date" placeholder="Choose preferred date" required>
                         </div>
 
@@ -275,7 +275,7 @@
    
 <div class="form-group mb-3">
                         <label for="message" class="form-label"></label>
-                        <textarea type="message" id="message" name="message" class="form-control" placeholder="Write your message here" required></textarea>
+                        <textarea type="message" id="message" name="message" class="form-control" placeholder="Kirjoita viestisi tähän" required></textarea>
                     </div>
 
 
@@ -291,10 +291,10 @@
 
         <div class="inputBox w100">
 
-                  <input type="submit" value="Send" id="send" class="#btn1" onclick="message()">
+                  <input type="submit" value="Lähettää" id="send" class="#btn1" onclick="message()">
 
 
-                <input type="submit" id="btn5" class="btn1" value="Close" onclick="toggle()">
+                <input type="submit" id="btn5" class="btn1" value="Kiinni" onclick="toggle()">
 
 
     
@@ -383,7 +383,7 @@
     <option value="Window Cleaning">Window Cleaning</option>
     <option value="Home Cleaning">Home Cleaning</option>
     <option value="Gardening">Gardening</option>
-        <option value="Touring Caravan">Touring Caravan</option>
+        <option value="Touring Caravan">Matkailuvaunu</option>
                         </select>
 
 
@@ -495,8 +495,8 @@
 
 <section  class="features" id="aboutus">
 <div  class="headingpp" >
-    <h1 >WHY CHOOSE US</h1>
-    <h3 style="font-size: 13px;  text-transform: none; letter-spacing: 1px; padding: 20px; font-size: 1.7rem;">Here are a few reasons to choose Precise N Systematic for your cleaning needs</h3>
+    <h1 >Miksi valira meidät</h1>
+    <h3 style="font-size: 13px;  text-transform: none; letter-spacing: 1px; padding: 20px; font-size: 1.7rem;">Tässä on muutamia syitä valita meidät siivoustarpeisiisi</h3>
 </div>
 
 
@@ -525,15 +525,15 @@
 </svg>
             <img src="improvement.png" alt="">
           </div>
-            <h3 style="margin-top: 10%;">Continuous Improvement</h3>
-            <p>By holding weekly team development meetings in the new work area we make sure that everyone's voice is heard. This practice encourages open communication, effectiveness and the ability to influence the workflow.</p>
+            <h3 style="margin-top: 10%;">Jatkuva Kehittyminen</h3>
+            <p>Pidämme uudella työalueella viikoittaisia kehittämis-kokouksia tiimimme kanssa jotta kaikkien mielipide otetaan huomioon ja tehokkaat tavat saadaan käytäntöön. Tätä toteutetaan kunnes parhaat käytännöt ovat otettu käyttöön uudella työalueella jolloin kommunikaatio sekä työn tehokkuus ja mielekkyys säilyy. </p>
           <!--  <a href="#" class="btn">read more</a> -->
         </div>
 
                 <div class="box">
 <div class="systematically">
-            <h3 style="padding-top: 5%; position: relative;">Systematically</h3>
-            <p>We strive for systematical work by using checklists. The purpose is to maintain consistency, accuracy, and make sure that no cleaning area is forgotten. We value customer's feedback. With that, we can then correct mistakes and provide better service.</p>
+            <h3 style="padding-top: 5%; position: relative;">Systemaattisuus</h3>
+            <p>Pyrimme systemaattisuuteen käyttämällä tarkistuslistoja jotta siivottavat alueet eivät unohdu ja tarkkuus säilyy. Annamme myös asiakkaalle oman version johon voi merkitä korjaavan palautteen. Tällöin voimme korjata virheemme heti ja nauttia hyvästä työn jäljestä. </p>
                    </div>
                    <div class="svgabout2">
                                <img src="hierarchy.png" alt="">
@@ -571,15 +571,15 @@
 </svg>
             <img src="unity.png" alt="">
           </div>
-            <h3>Unity</h3>
-            <p>Every team members voice needs to be heard. When everyone's ideas and best practices are considered, it nurtures a growing environment where everyone can influence their own work. It is important for us to work as a team and discuss matters openly. </p>
+            <h3>Yhteenkuuluvuus</h3>
+            <p>Pyrimme toimimaan niin että kaikkien ääni saataisiin kuultua. Tällöin kaikkien ideat sekä parhaat käytännöt saadaan kuultua ja kukin voi itse vaikuttaa työntekoon. Meille on tärkeätä että toimimme tiiminä ja voidaan avoimesti puhua asioista. Kaikki työntekijämme puhuvat englantia.  </p>
  
         </div>
 
         <div class="box">
             <div class="communication">
-            <h3>Communication</h3>
-            <p>We always have a person ready to answer the phone, attend to customers inquiries in all our social media accounts. If a problem occurs, we will try to help as quickly as possible.</p>
+            <h3>Yhteydenpito 24/7</h3>
+            <p>Joku meistä on aina valmiina vastaamaan puhelimeen. Jos jokin ongelma tapahtuu, pyrimme auttamaan mahdollisimman nopeasti.</p>
           </div>
 
             <div class="svgabout4">
@@ -618,7 +618,7 @@
 
  <section class="serbisyo"  id="services" >
 <div  class="headingp" >
-    <h1 >OUR SERVICES</h1>
+    <h1 >PALVELUMME</h1>
 </div>
  
   <div class="blobig">
@@ -669,8 +669,8 @@
         <img src="homecleans.jpg">
       </div>
       <div class="contentservice">
-        <h3 class=cleaning>Home Cleaning</h3>
-        <p>We clean all the rooms in the house, eg. bedrooms, living rooms, kitchen and bathrooms. We clean from the cleanest to the dirtiest, then the cleaning stays as hygienic as possible.</p>
+        <h3 class=cleaning>Kotisiivous</h3>
+        <p>Siivoamme kaikki talon huoneet mm. makuuhuoneet, olohuoneet, keittiö ja kylpyhuoneet. Siivoamme puhtaimmasta likaisimpaan, silloin siivous pysyy mahdollisimman hygieeenisenä.</p>
 
         
       </div>
@@ -707,8 +707,8 @@
         <img src="windowcleans.jpg">
       </div>
       <div class="contentservice">
-        <h3 class=cleaning>Window cleaning</h3>
-        <p>We offer the best quality and care for your home. Our principle is to wash your windows as if they were our own. We remove tape, paint, insects, minerals or oxidation stains during our normal washing.</p>
+        <h3 class=cleaning>Ikkunanpesut</h3>
+        <p>Tarjoamme parasta laatua ja huolehtimista kodillenne. Periaatteenamme on, että pesemme ikkunanne kuin ne olisivat omiamme. Poistamme teippi-, maali-, hyönteis-, mineraali tai hapettumistahrat normaalin pesumme yhteydessä.</p>
 
         
       </div>
@@ -747,10 +747,8 @@
         <img src="gardens.jpg">
       </div>
       <div class="contentservice">
-        <h3 class=cleaning>Gardening</h3>
-        <p>We clean your garden, remove debris and leaves by keeping 
-          your garden tidy. We believe that gardens work best when 
-        they are usable and easy to maintain.</p>
+        <h3 class=cleaning>Puutarhanhoito</h3>
+        <p>Siivoamme puutarhanne, poistamme roskat ja lehdet pitäen puutarhanne siistinä. Uskomme että puutarhat onnistuvat parhaiten kun ne ovat käytettäviä, helppokulkuisia sekä helppohoitoisia.</p>
         
       </div>
     </div>
@@ -837,7 +835,7 @@
 
 <div class="pricingplan" id="pricing">
 <div  class="headingppp" >
-    <h1 >PRICING PLAN</h1>
+    <h1 >HINNASTO</h1>
 </div>
 
 <div class="blobprice">
@@ -887,35 +885,38 @@
             <div class="contentprice1">
 
             <div class="name-profession">
-              <span class="serve">Home Cleaning</span>
-              <span class="price">€30 <strong style="font-size: 12px;     top: -5px; position: relative;">per hour</strong></span>
-              <span class="descrip">3x a week or<br>Everyday cleaning
-                <br><em> 24% vat included </em></span>
+              <span class="serve">Kotisiivous</span>
+              <span class="price">€30 <strong style="font-size: 12px;     top: -5px; position: relative;">tunnissa</strong></span>
+              <span class="descrip">3x viikossa tai<br>päivittäinen siivous
+
+                <br><em> 
+Sisältää alv 24% </em></span>
 
             </div>
            
 
             <div class="name-profession">
-               <span class="price">€33 <strong style="font-size: 12px;     top: -5px; position: relative;">per hour</strong></span>
-              <span class="descrip">2x a week <br> <em> 24% vat included</em></span>
+               <span class="price">€33 <strong style="font-size: 12px;     top: -5px; position: relative;">tunnissa</strong></span>
+              <span class="descrip">2x viikossa<br> <em> 
+Sisältää alv 24%</em></span>
 
             </div>
 
 
             <div class="name-profession">
-               <span class="price">€36 <strong style="font-size: 12px;     top: -5px; position: relative;">per hour</strong></span>
-              <span class="descrip">One time-cleaning<br><em> 24% vat included</em></span>
+               <span class="price">€36 <strong style="font-size: 12px;     top: -5px; position: relative;">tunnissa</strong></span>
+              <span class="descrip">Kertasiivous<br><em> Sisältää alv 24%</em></span>
 
             </div>
             <div class="minmin">
-            <span class="descrip"><em>Minimum of 3 hours per booking</em></span>
+            <span class="descrip"><em>Vähintään 3 tuntia per varaus</em></span>
           </div>
           </div>
 
 
 
             <div class="button1">
-              <a id="btnhome1" href="#home"  style="background-image: linear-gradient(to right, #d660b5, #ef6298 );" class="aboutMe1" onclick="toggle()" onclick="click()">Book Now</a>
+              <a id="btnhome1" href="#home"  style="background-image: linear-gradient(to right, #d660b5, #ef6298 );" class="aboutMe1" onclick="toggle()" onclick="click()">Varaa Nyt</a>
             </div>
 
 
@@ -950,35 +951,36 @@
             <div class="contentprice">
 
             <div class="name-profession">
-              <span class="serve">Window Cleaning</span>
-              <span class="price">€30 <strong style="font-size: 12px;     top: -5px; position: relative;">per hour</strong></span>
-              <span class="descrip">3x a week or<br>Everyday cleaning<br><em> 24% vat included </em></span>
+              <span class="serve">Ikkunanpesut</span>
+             <span class="price">€30 <strong style="font-size: 12px;     top: -5px; position: relative;">tunnissa</strong></span>
+              <span class="descrip">3x viikossa tai<br>päivittäinen siivous
+
+                <br><em> 
+Sisältää alv 24% </em></span>
 
             </div>
            
 
             <div class="name-profession">
-               <span class="price">€33 <strong style="font-size: 12px;     top: -5px; position: relative;">per hour</strong></span>
-              <span class="descrip">2x a week  <br> <em> 24% vat included</em></span>
+              <span class="price">€33 <strong style="font-size: 12px;     top: -5px; position: relative;">tunnissa</strong></span>
+              <span class="descrip">2x viikossa<br> <em> 
+Sisältää alv 24%</em></span>
 
             </div>
 
 
             <div class="name-profession">
-               <span class="price">€36 <strong style="font-size: 12px;     top: -5px; position: relative;">per hour</strong></span>
-              <span class="descrip">One time-cleaning <br><em> 24% vat included</em></span>
+               <span class="price">€36 <strong style="font-size: 12px;     top: -5px; position: relative;">tunnissa</strong></span>
+              <span class="descrip">Kertasiivous<br><em> Sisältää alv 24%</em></span>
 
             </div>
-
+            <div class="minmin">
+            <span class="descrip"><em>Vähintään 3 tuntia per varaus</em></span>
           </div>
-
-
- <div class="minmin">
-            <span class="descrip">Minimum of 3 hours per booking</span>
           </div>
 
                <div class="button1">
-                            <a href="#home"  style="background-image: linear-gradient(to left, #f9e867, #eac71a);" class="aboutMe2">Book Now</a>
+                            <a href="#home"  style="background-image: linear-gradient(to left, #f9e867, #eac71a);" class="aboutMe2">Varaa Nyt</a>
             </div>
 
 
@@ -1043,7 +1045,7 @@
 
 
             <div class="button1">
-                            <a href="#home"  style="background-image: linear-gradient(to left, #f9e867, #eac71a);" class="aboutMe2">Book Now</a>
+                            <a href="#home"  style="background-image: linear-gradient(to left, #f9e867, #eac71a);" class="aboutMe2">Varaa Nyt</a>
             </div>
 
 
@@ -1065,7 +1067,7 @@
 </div>
 
             <div class="name-profession">
-              <span class="serve">Gardening</span>
+              <span class="serve">Puutarhanhoito</span>
               <span class="price">€29.50</span>
               <span class="profession">per hour</span>
               <span class="descrip">One time-cleaning <br> Minimum of 3 hours</span>
@@ -1120,17 +1122,18 @@
 </div>
 
             <div class="name-profession">
-              <span class="serve">Touring Caravan</span>
+              <span class="serve">Matkailuvaunu</span>
               <span class="price"></span>
               <span class="profession"></span>
-              <span style="margin-left: -2%" class="descrip">&nbsp &nbsp The price plan of this service<br> will depend on the type of contract<br>  you will choose.
-              <br> <br> Please contact us.  </span>
+              <span style="margin-left: -2%" class="descrip">&nbsp &nbsp Tämän palvelun hinta <br> riippuu valitsemastasi<br>  sopimuksesta.
+              <br> <br> 
+Ota yhteyttä.  </span>
 
             </div>
 
 
              <div class="button">
-                  <a href="#contact"  style="background-image: linear-gradient(to left, #f9e867, #eac71a);" class="aboutMe2">Contact Us</a>
+                  <a href="#contact"  style="background-image: linear-gradient(to left, #f9e867, #eac71a);" class="aboutMe2">Ota Meihin Yhteyttä</a>
                  <!--  <a onclick="togglePopup())" class="active"> -->
             </div>
           </div>
@@ -1236,7 +1239,7 @@
       <div class="formBoxpop">
 
         <div class="headngform">
-<h2>Let us do the work!</h2>
+<h2>Anna meidän tehdä työ</h2>
 </div>
         <div class="inputBox w50">
         
@@ -1499,7 +1502,7 @@
   <div class="containercontact">
     <div class="contactinfo">
       <div>
-        <h2>Say hello to us</h2>
+        <h2>Sano meille terveisiä</h2>
         <ul style="margin-bottom: 5px" class="info">
           <li>
             <span><img class="emailcon" src="email.png"></span>
@@ -1528,7 +1531,8 @@
 
 
     <div id="contactcontact" class="contactForm">
-<div class="mapcap"> <h4>See where our office is located on the map</h4> </div>
+<div class="mapcap"> <h4>
+Tarkista toimistomme sijainti kartalta</h4> </div>
 
 <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126440.09240861206!2d24.82970393184952!3d60.31923564132178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469207b83a3845b5%3A0xe2b7cd7632a1804f!2sVantaa%2C%20Finland!5e0!3m2!1sen!2sph!4v1657353282694!5m2!1sen!2sph" width="430" height="385" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -1566,7 +1570,7 @@
 
 
 <div>
- <a href="#home"  id="btnhomefoot" class="fade-inbook btn">Book a cleaning</a>
+ <a href="#home"  id="btnhomefoot" class="fade-inbook btn">Varaa Siivous</a>
 </div>
 
 <div>
@@ -1586,7 +1590,7 @@
         <a href="#" class="logo">
   <span id="change1"  style="color: white;"> <strong> Precise &nbsp &nbsp Systematic </strong></span>
 </a>
-<p>Ⓒ Copyright 2022. All rights reserved. </p>
+<p>ⒸCopyright 20222. All rights reserved. </p>
 <div class="imgnf">
 <img style="height: 80px;"id="nf" href="#" src="NN.png">
 </div>
