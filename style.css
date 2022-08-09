@@ -7053,12 +7053,11 @@ section #book1.contactForm {
     }
     #pricing{
          margin-top: 135%;
-    position: relative;;
-    top: 10px;
+    position: relative;
     }
 
     section.sectionslid{
-        margin-top: 5%;
+        margin-top: 15%;
     }
 
     #contact{
