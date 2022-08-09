@@ -150,7 +150,34 @@ header{
     z-index: 1000;
 }
 
+.fintranslate img {
+    height: 35px;
+    margin-left: 33%;
+    margin-top: 1.2%;
+    /* background: linear-gradient(to right, #29c8cf 70%, #35b3d1); */
+    position: absolute;
+        z-index: 9999;
+        transition: all .3s linear;
+}
 
+.usatranslate img {
+    height: 35px;
+    margin-left: 37%;
+    margin-top: 1.2%;
+    position: absolute;
+     z-index: 9999;
+        transition: all .3s linear;
+}
+
+
+.fintranslate img:hover{
+    transform: scale(1.3);
+}
+
+
+.usatranslate img:hover{
+    transform: scale(1.3);
+}
 
 
 header .logo{
@@ -3176,7 +3203,7 @@ z-index: 100000;
     justify-content: left;
     border-radius: 15px;
     margin-left: 1%;
-
+    padding-top: 19%;
 }
 
 .headngform{
@@ -3214,6 +3241,7 @@ z-index: 100000;
     align-content: center;
     margin-top: 5%;
     font-size: 3.5rem;
+        margin-top: 2%;
 }
 .headngform2 h2{
     color: white;
@@ -3665,7 +3693,7 @@ color: white;
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-top: 6%;
+    margin-top: 9%;
     font-size: 3rem;
     margin-left: 1%;
 }
@@ -4463,7 +4491,7 @@ header .logo {
     position: absolute;
     font-size: 2rem;
     color: #145a92;
-    margin-left: 39.5%;
+    margin-left: 18.5%;
 }
 
 body{
@@ -4792,9 +4820,23 @@ img#nf {
 #fut {
     width: 100%;
 
-    height: 55vh;
+    height: 53vh;
     margin-top: 0%;
 
+}
+
+.fintranslate img {
+    height: 28px;
+    margin-left: 74%;
+    margin-top: 4%;
+    position: fixed;
+}
+
+.usatranslate img {
+    height: 28px;
+    margin-left: 83%;
+    margin-top: 4%;
+    position: fixed;
 }
 
 #change{
@@ -6401,6 +6443,10 @@ background: white;
             transform: scaleY(1);
     left: 28.7%;
     top: 2px;
+    }
+
+    header img#n{
+       left: 7.6%;
     }
 
 .btn1 {

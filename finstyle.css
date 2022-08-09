@@ -150,6 +150,35 @@ header{
     z-index: 1000;
 }
 
+.fintranslate img {
+    height: 35px;
+    margin-left: 33%;
+    margin-top: 1.2%;
+    position: fixed;
+   cursor: pointer;
+    transition: all .3s linear;
+    z-index: 9999;
+}
+
+.usatranslate img {
+    height: 35px;
+    margin-left: 37%;
+    margin-top: 1.2%;
+    position: fixed;
+         z-index: 9999;
+        transition: all .3s linear;
+}
+
+
+.fintranslate img:hover{
+    transform: scale(1.3);
+}
+
+.usatranslate img:hover{
+    transform: scale(1.3);
+}
+
+
 
 
 
@@ -1068,7 +1097,7 @@ top: -50px;
   z-index: 100;
   color: white;
   justify-content: center;
-  top: 15%;
+  top: 4%;
 }
 
 .card1 .button1{
@@ -1096,11 +1125,18 @@ top: -50px;
   background: #2196f3;
 }
 
+.name-profession1{
+    margin-top: 0%;
+}
+
 .card1 .name-profession1{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10%;
 } 
 
 .name-profession1 .serve{
@@ -1109,6 +1145,10 @@ top: -50px;
   margin-top: -8px;
   padding: 20px;
 
+}
+
+.card-content1 .button1 a.aboutMe2{
+    margin-top: 5%;
 }
 
 .pricehour{
@@ -1473,7 +1513,7 @@ visibility: visible;
 .mapcap h4{
 font-weight: 100;
     font-size: 12px;
-    margin-left: 5%;
+    margin-left: 18%;
     margin-top: 2%;
 }
 
@@ -1697,6 +1737,17 @@ section .card .image img{
   top: 5px;
 }
 
+.name-profession1 .serve1 {
+        font-size: 15px;
+    font-weight: 550;
+    margin-top: -40px;
+    padding: 20px;
+    top: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
 .name-profession .name{
   font-size: 20px;
   font-weight: 600;
@@ -1707,6 +1758,14 @@ section .card .image img{
   font-weight: 600;
 
 }
+
+.name-profession .price1{
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+
 
 .name-profession .profession{
       padding-top: 10px;
@@ -1740,6 +1799,24 @@ button.aboutMe5{
   font-weight: 500;
   text-align: center;
 }
+
+.name-profession1 .descrip1{
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.name-profession1 .minmin em{
+    font-size: 11px;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 3px white-space: nowrap;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -23%;
+    }
+
 
 .card .rating{
   display: flex;
@@ -3177,6 +3254,7 @@ z-index: 100000;
     justify-content: left;
     border-radius: 15px;
     margin-left: 1%;
+    padding-top: 19%;
 
 }
 
@@ -3658,6 +3736,7 @@ border-radius: 15px;
     border-top-right-radius: 15px;
     border-top: 1px solid rgb(0 0 0 / 25%);
     border: none;
+    margin-top: 2%;
 }
 
 
@@ -3666,9 +3745,9 @@ color: white;
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-top: 6%;
+    margin-top: 9%;
     font-size: 3rem;
-    margin-left: 1%;
+    margin-left: -5%;
 }
 
 
@@ -4464,7 +4543,7 @@ header .logo {
     position: absolute;
     font-size: 2rem;
     color: #145a92;
-    margin-left: 39.5%;
+    margin-left: 19.5%;
 }
 
 body{
@@ -4793,13 +4872,35 @@ img#nf {
 #fut {
     width: 100%;
 
-    height: 55vh;
+    height: 53vh;
     margin-top: 0%;
 
 }
 
+header span strong{
+        position: absolute;
+    top: -1px;
+    white-space: nowrap;
+        left: -4px;
+}
+
 #change{
 margin-left: -18%;
+}
+
+.fintranslate img {
+    height: 28px;
+    margin-left: 74%;
+    margin-top: 4%;
+    position: fixed;
+}
+
+
+.usatranslate img {
+    height: 28px;
+    margin-left: 83%;
+    margin-top: 4%;
+    position: fixed;
 }
 
 
@@ -5634,10 +5735,10 @@ footer{
 }
 
 .mapcap h4 {
-    font-weight: 100;
+font-weight: 100;
     font-size: 12px;
-    margin-left: 14%;
-    margin-top: 2%;
+    margin-left: 52%;
+    margin-top: 3%;
 }
 
 }
@@ -6404,6 +6505,8 @@ background: white;
     top: 2px;
     }
 
+
+
 .btn1 {
     margin-top: 10%;
     align-items: center;
@@ -6417,7 +6520,10 @@ background: white;
 
 
 
-
+header img#n {
+    left: 7.7%;
+    top: 0%;
+}
 
 .hideNav{
     top: -50px !important;
