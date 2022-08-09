@@ -24,7 +24,6 @@ html{
     overflow-x: hidden;
     scroll-behavior: smooth;
     height: 101%;
-
 }
 
 
@@ -34,8 +33,8 @@ body{
 }
 
 section{
-    position: fixed;
     min-height: 100vh;
+    padding-bottom: 2rem;
 scroll-snap-align: start;
 }
 
@@ -4128,7 +4127,6 @@ position: absolute;
 .home .content{
 
     margin-left: 30%;
-    top: -2em;
     letter-spacing: 2px;
 
 }
@@ -4346,7 +4344,6 @@ margin-top: -129%;
 .home{
 
     background-image: url(mobmob1.png);
-    top: -4rem;
 
 
 
@@ -6305,7 +6302,7 @@ section #book1.contactForm {
      padding-top: 28%;
     position: relative;
     background: transparent;
-    margin-top: 90%;
+    margin-top: 45%;
     top: -150px;
     margin-left: 4px;
 }
@@ -7064,12 +7061,6 @@ section #book1.contactForm {
     .headingppp{
         margin-top: -35px;
         position: absolute;
-    }
-
-
-    .headingppp h1{
-        margin-top: 25%;
-        top: 5%;
     }
     #pricing{
          margin-top: 135%;
