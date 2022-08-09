@@ -6304,7 +6304,7 @@ section #book1.contactForm {
      padding-top: 28%;
     position: relative;
     background: transparent;
-    margin-top: 45%;
+    margin-top: 90%;
     top: -150px;
     margin-left: 4px;
 }
@@ -7063,6 +7063,12 @@ section #book1.contactForm {
     .headingppp{
         margin-top: -35px;
         position: absolute;
+    }
+
+
+    .headingppp h1{
+        margin-top: 25%;
+        top: 5%;
     }
     #pricing{
          margin-top: 135%;
