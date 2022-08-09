@@ -6302,7 +6302,7 @@ section #book1.contactForm {
     position: relative;
     background: transparent;
     margin-top: 45%;
-    top: -150px;
+    top: 0px;
     margin-left: 4px;
 }
 
@@ -7052,7 +7052,12 @@ section #book1.contactForm {
         position: absolute;
     }
     #pricing{
-        margin-top: 120%;
+         margin-top: 135%;
+    position: relative;;
+    }
+
+    section.sectionslid{
+        margin-top: 15%;
     }
 
     #contact{
