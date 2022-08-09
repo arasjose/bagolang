@@ -23,7 +23,7 @@
 html{
     overflow-x: hidden;
     scroll-behavior: smooth;
-    height: 101%;
+
 }
 
 
@@ -286,6 +286,7 @@ background: linear-gradient(to left, #6595E6, #1B4A9B);
     background:url() no-repeat;
     background-size: cover;
     background-position: center;
+    position: absolute;
 }
 
 
@@ -3864,7 +3865,6 @@ img.footig:hover, img.footphone:hover, img.footfb:hover{
     html{
         font-size: 55%;
         overflow-x: hidden;
-        height: 101%;
     }
 
     .postsafb{
@@ -3888,7 +3888,6 @@ img.footig:hover, img.footphone:hover, img.footfb:hover{
     html{
         font-size: 55%;
                overflow-x: hidden;
-               height: 101%;
     }
 .headingppp {
     margin-left: 11px;
@@ -4090,7 +4089,6 @@ position: absolute;
     
     html{
         font-size: 55%;
-        height: 101%;
     }
 
 }
@@ -4127,6 +4125,7 @@ position: absolute;
 .home .content{
 
     margin-left: 30%;
+    top: -2em;
     letter-spacing: 2px;
 
 }
@@ -4344,6 +4343,7 @@ margin-top: -129%;
 .home{
 
     background-image: url(mobmob1.png);
+    top: -4rem;
 
 
 
@@ -6438,7 +6438,6 @@ background: white;
     
     html{
         font-size: 50%;
-        height: 101%;
     }
 
     header img{
@@ -7248,7 +7247,6 @@ section #book1.contactForm{
     
     html{
         font-size: 55%;
-        height: 101%;
     }
 
     header img {
@@ -7501,7 +7499,6 @@ header img{
 @media (max-width:376px){
     html{
         font-size: 45%;
-        height: 101%;
     }
 
     header img{
@@ -8178,7 +8175,6 @@ margin-top: -15%;
 @media (max-width:361px){
     html{
         font-size: 45%;
-        height: 101%;
     }
 
     header img{
@@ -8745,7 +8741,6 @@ position: relative;
 @media (max-width:360px){
     html{
         font-size: 45%;
-        height: 101%;
     }
 
     header img{
@@ -9453,7 +9448,6 @@ position: relative;
 
     html{
         font-size: 45%;
-        height: 101%;
     }
 
     header img{
@@ -9584,7 +9578,6 @@ position: relative;
 @media (max-width:240px){
     html{
         font-size: 45%;
-        height: 101%;
     }
 
     header img{
