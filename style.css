@@ -4125,6 +4125,7 @@ position: absolute;
 .home .content{
 
     margin-left: 30%;
+    top: -2em;
     letter-spacing: 2px;
 
 }
@@ -4341,8 +4342,9 @@ margin-top: -129%;
 
 .home{
 
-    background-image: url(mobmob1.png);
-    position: relative;
+
+
+
 }
 
 .custom-shape-divider-bottom-1647918698{
@@ -5157,6 +5159,7 @@ left: 20ppx;
     }
 
     section .containercontact .contactForm {
+    height: 100%;
     position: relative;
     width: 33%;
     background: linear-gradient(to left, #6595E6, #1B4A9B);
