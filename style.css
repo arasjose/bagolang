@@ -4343,9 +4343,9 @@ margin-top: -129%;
 .home{
 
     background-image: url(mobmob1.png);
-    top: -4rem;
-    position: absolute;
 
+    position: absolute;
+height: 50vh;
 
 
 }
