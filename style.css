@@ -2987,7 +2987,7 @@ width: 101%;
     flex-direction: row;
     justify-content: space-between;
     margin-left: -15%;
-    margin-top: -11%;
+    margin-top: -16%;
     color: white;
     text-align: center;
     padding: 0;
@@ -5986,7 +5986,7 @@ section .containercontact .contactinfo {
 
 }
 .contactinfo{
-    margin-top: 15%;
+    margin-top: -40%;
 }
 
 section .containercontact .contactForm .formBox {
@@ -7003,7 +7003,7 @@ section #book1.contactForm {
     position: relative;
     justify-content: left;
     border-radius: 15px;
-    padding-top: 15;
+    padding-top: 15%;
     top: 20px;
 }
 
