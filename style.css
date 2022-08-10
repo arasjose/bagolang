@@ -7060,8 +7060,8 @@ section #book1.contactForm {
         position: absolute;
     }
     #pricing{
-         margin-top: 80%;
-         padding-top: 80%;
+         margin-top: 100%;
+         padding-top: 0%;
          top: 100px;
     position: relative;
     }
