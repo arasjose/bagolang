@@ -7061,6 +7061,7 @@ section #book1.contactForm {
     }
     #pricing{
          margin-top: 80%;
+         padding-top: 50%;
          top: -50px;
     position: relative;
     }
