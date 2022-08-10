@@ -5157,7 +5157,6 @@ left: 20ppx;
     }
 
     section .containercontact .contactForm {
-    height: 100%;
     position: relative;
     width: 33%;
     background: linear-gradient(to left, #6595E6, #1B4A9B);
