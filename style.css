@@ -286,7 +286,6 @@ background: linear-gradient(to left, #6595E6, #1B4A9B);
     background:url() no-repeat;
     background-size: cover;
     background-position: center;
-    position: absolute;
 }
 
 
@@ -6299,10 +6298,11 @@ section #book1.contactForm {
 
 
     #pricing{
-padding-top: 61%;
+     padding-top: 28%;
+    position: relative;
     background: transparent;
-    margin-top: 26%;
-    top: 0;
+    margin-top: 45%;
+    top: -150px;
     margin-left: 4px;
 }
 
@@ -7035,13 +7035,6 @@ section #book1.contactForm {
 }
 
 
-  .pricingplan{
-                    position: relative;
-                    top: 0;
-                    margin-top: 0;
-                }
-
-
 
 
 
@@ -7054,26 +7047,13 @@ section #book1.contactForm {
               and (max-height: 736px){
 
 
-
-
     .headingppp{
         margin-top: -35px;
         position: absolute;
     }
     #pricing{
          margin-top: 135%;
-    position: relative;
-    }
-
-
-                .pricingplan{
-                    position: relative;
-                    top: 0;
-                    margin-top: 0;
-                }
-
-    section.sectionslid{
-        margin-top: 15%;
+    position: relative;;
     }
 
     #contact{
@@ -7282,6 +7262,7 @@ section#aboutus {
 }
 
 #serveee {
+    margin-top: -25%;
     position: relative;
     padding-top: 9%;
 }
