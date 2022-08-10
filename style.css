@@ -399,6 +399,25 @@ list-style: none;
 transition: 2s;
 }
 
+.notice-bar {
+    display: none;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    z-index: 99999;
+}
+.ok-button {
+    padding: 10px; 
+    background: red; 
+    border-radius: 10px;  
+}
+
 .bottom ul{
     list-style: none;
     transition: 2s;
