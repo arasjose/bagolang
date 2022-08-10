@@ -6302,7 +6302,7 @@ section #book1.contactForm {
     position: relative;
     background: transparent;
     margin-top: 45%;
-    top: 50px;
+    top: -150px;
     margin-left: 4px;
 }
 
@@ -7047,7 +7047,7 @@ section #book1.contactForm {
 
 
 
-/*
+
 @media screen and (max-width:  414px)
               and (max-height: 736px){
 
