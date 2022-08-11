@@ -1095,7 +1095,7 @@ top: -50px;
   z-index: 100;
   color: white;
   justify-content: center;
-  top: 15%;
+  top: 4%;
 }
 
 .card1 .button1{
@@ -1130,12 +1130,26 @@ top: -50px;
   text-align: center;
 } 
 
+.card1 .name-profession1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 8%;
+}
+
 .name-profession1 .serve{
   font-size: 15px;
   font-weight: 550;
   margin-top: -8px;
   padding: 20px;
 
+}
+
+.card-content1 .button1 a.aboutMe2 {
+    margin-top: 5%;
 }
 
 .pricehour{
@@ -1172,6 +1186,7 @@ font-size: 26px;
     font-weight: 550;
     margin-left: -30%;
 }
+
 
 
 .name-profession1 .price3{
@@ -1740,6 +1755,18 @@ section .card .image img{
 
 }
 
+
+.name-profession1 .serve1 {
+        font-size: 15px;
+    font-weight: 550;
+    margin-top: -40px;
+    padding: 20px;
+    top: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
 a.aboutMe1, .aboutMe2, .aboutMe3, .aboutMe4, .aboutMe5 {
     background-image: linear-gradient(to right, #145a92 45%,#2196f3);
     outline: none;
@@ -1786,6 +1813,12 @@ button.aboutMe5{
   justify-content: space-around;
 }
 
+.name-profession1 .descrip1 {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+
 .card .button button{
   background-image: linear-gradient(to right,  #145a92 45%,#2196f3);
   outline: none;
@@ -1821,8 +1854,20 @@ button.aboutMe5{
 .minmin span{
     text-align: center;
     margin-left: 8%;
+    white-space: nowrap;
 }
 
+
+.name-profession1 .minmin em {
+    font-size: 11px;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 3px white-space: nowrap;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -23%;
+}
 
 .swiper-pagination{
   position: absolute;
@@ -7176,7 +7221,7 @@ section.sectionslid{
 }
 
 .card .card-content{
-    height: 500px;
+    height: 86%;
 }
 
 .card1{
@@ -7189,13 +7234,14 @@ section.sectionslid{
 }
 
 #pricing{
-    margin-top: 129%;
+    margin-top: 110%;
     padding-top: 28%;
     position: relative;
 }
 
 #contact{
-    margin-top: -81%;
+    margin-top: -85%;
+    padding-top: 42%;
 }
 
 section #book1.contactForm{
@@ -7240,6 +7286,39 @@ section #book1.contactForm{
 }
 
 
+@media (max-width:393px){
+
+    .headingpp h1{
+        margin-top: -152%;
+    }
+
+    .headingpp h3{
+        margin-top: -5%;
+
+
+    }
+
+    #pricing{
+margin-top: 94%;
+
+    }
+
+  section.sectionslid {
+    margin-top: -10%;
+}
+
+#contact{
+    padding-top: 35%;
+    margin-top: -55%;
+    margin-left: 4.5%;
+}
+
+img#nf{
+        margin-top: 260%;
+    margin-left: -4%;
+}
+
+}
 
 
 
@@ -7394,7 +7473,8 @@ section #book1.contactForm {
 @media (max-width:384px){
 
 #pricing{
-    margin-top: 115%;
+    margin-top: 96%;
+    padding-top: 33%;
 }
 
 .fbfbfb{
@@ -7403,7 +7483,19 @@ section #book1.contactForm {
 }
 
 .headingppp {
-    margin-top: 5%;
+    margin-top: -12%;
+}
+
+.imgb img {
+    margin-left: 22.8%;
+    margin-top: -10%;
+    transform: rotate(7deg);
+}
+
+#serveee {
+    position: relative;
+    padding-top: 9%;
+    margin-top: -24%;
 }
 
 section .containercontact{
@@ -7419,11 +7511,12 @@ h1.contactfooter{
 }
 
 #contact{
-    margin-top: -30%;
+    margin-top: -50%;
+    padding-top: 89%;
 }
 
 #fut{
-    height: 63vh;
+    height: 70vh;
 }
 
 section #book1.contactForm{
@@ -7443,7 +7536,7 @@ section #book1.contactForm{
 }
 
 .card .card-content{
-    height: 472px;
+    height: 85%;
 }
 
 .card1 {
@@ -7487,7 +7580,7 @@ header img{
 }
 
 .card .card-content{
-    top: -5%;
+    top: 0%;
 }
 }
 
@@ -7509,8 +7602,19 @@ header img{
         top: 0;
     }
 
+#fut{
+    margin-top: 110%;
+}
 
+header img#n {
+    left: 3.6%;
+}
 
+.imgb img {
+    margin-left: 25.3%;
+    margin-top: -10%;
+    transform: rotate(8deg);
+}
     
 .home .content h3{
     font-size: 25px;
@@ -7666,7 +7770,7 @@ section.serbisyo {
 #pricing{
     padding-top: 20%;
     position: relative;
-    margin-top: 20%;
+    margin-top: 30%;
     background: transparent;
     margin-left: -10%;
 }
@@ -7708,7 +7812,7 @@ section.container{
 
 section.sectionslid{
     position: relative;
-    padding-top: 20%;
+    padding-top: 35%;
 }
 
 .headingpp h1{
@@ -7799,7 +7903,7 @@ margin-left: -3%;
 
 #contact{
 
-margin-top: -43%;
+margin-top: -75%;
 padding-top: 47%;
 top: 300px;
 margin-left: 11%;
@@ -8745,6 +8849,16 @@ position: relative;
         font-size: 45%;
     }
 
+    #serveee {
+    margin-top: -30%;
+    background: transparent;
+}
+
+section#aboutus {
+    padding-top: 43%;
+    margin-top: 5%;
+}
+
     header img{
  left: 26.5%;
     max-height: 55px;
@@ -8820,7 +8934,7 @@ footer .logof span {
 
 .logo{
     margin-top: 52%;
-    margin-left: 16%;
+    margin-left: 21.3%;
 }
 
 img#nf{
@@ -8982,7 +9096,7 @@ section.container{
 
 section.sectionslid{
     position: relative;
-    padding-top: 0%;
+    padding-top: 20%;
 }
 
 .headingpp h1{
@@ -9001,6 +9115,11 @@ margin-top: 5%;
 
 }
 
+header img#n{
+left: 18px;
+}
+
+
 h1{
     position: relative;
     margin-top: 30%;
@@ -9011,7 +9130,7 @@ h1{
 
 .card .card-content{
 margin-top: 25%;
-    height: 85%;
+    height: 80%;
     width: 90%;
     margin-left: 5%;
 }
@@ -9077,8 +9196,7 @@ margin-left: -3%;
 
 
 #contact{
-
-margin-top: 130%;
+    margin-top: 88%;
     padding-top: 41%;
     top: 300px;
     margin-left: 11.5%;
@@ -9443,6 +9561,97 @@ position: relative;
 }
 
 
+@media screen and (max-width:  360px)
+              and (max-height: 740px){
+              
+#pricing{
+
+    margin-top: -140%;
+
+}
+
+section.sectionslid{
+margin-top: -12%;
+}
+
+#contact{
+padding-top: 55%;
+}
+
+
+#fut {
+    height: 57vh;
+    margin-top: 109%;
+}
+}
+
+@media screen and (max-width:  360px)
+              and (max-height: 640px){
+              
+
+              #pricing{
+                    margin-top: -118%;
+    padding-top: 39%;
+              }
+
+              .headingppp{
+                margin-top: -17%;
+              }
+
+              .contentprice1 {
+    margin-top: -17%;
+}
+
+.pinkdiagrp {
+    position: absolute;
+    margin-top: -123%;
+    margin-left: -2%;
+}
+
+.contentprice {
+    margin-top: -17%;
+}
+
+.yeldiagrp {
+    position: absolute;
+    margin-top: -123%;
+    margin-left: -2%;
+}
+
+#contact {
+    padding-top: 40%;
+}
+
+#fut {
+    height: 64vh;
+    margin-top: 109%;
+}              }
+
+
+@media (max-width:353px){
+    .home .content a.btn {
+        font-size: 11px;
+    }
+
+    #pricing{
+        margin-top: -150%;
+    }
+
+    section.sectionslid{
+        margin-top: -15%;
+    }
+
+    #contact {
+    margin-top: 115%;
+    padding-top: 41%;
+    top: 300px;
+    margin-left: 11.5%;
+}
+
+#fut{
+    height: 56vh;
+}
+}
 
 
 
@@ -9457,6 +9666,34 @@ position: relative;
         left: 4.8%;
     }
 
+    header img#n {
+    left: 11px;
+    top: -7%;
+}
+
+.fintranslate img {
+    margin-left: 72%;
+    }
+
+
+
+
+    .imgb img {
+    margin-left: 26.3%;
+    margin-top: -8.5%;
+    min-height: 105%;
+    transform: rotate(5deg);
+}
+
+section#aboutus {
+    padding-top: 53%;
+    margin-top: 0;
+}
+
+.features .box-container .box {
+    height: 50%;
+}
+
     .home .content h3{
         font-size: 29px;
     }
@@ -9470,12 +9707,17 @@ position: relative;
     }
 
     #change{
-        margin-left: -23.5%;
+     margin-left: -21%;
+    margin-top: -1.5%;
     }
 
     section #book1.contactForm{
         height: 525px;
     }
+
+    .headingpp {
+    margin-top: -107%;
+}
 
 
     .headngform h2{
@@ -9502,7 +9744,6 @@ position: relative;
         padding-top: 13%;
     }
     .features .box-container{
-        top: 0;
     }
     .headingpp h1{
         font-size: 23px;
@@ -9513,7 +9754,7 @@ position: relative;
     }
 
     #serveee {
-        margin-top: 0%;
+        margin-top: -25%;
     }
 
     .contentservice h3{
@@ -9526,6 +9767,76 @@ position: relative;
         margin-left: 0.7%;
     }
 
+    #pricing{
+    margin-top: -144%;
+    padding-top: 52%;
+    }
+
+
+    .headingppp {
+    margin-top: -23%;
+}
+
+
+.container {
+    height: 106%;
+    width: 100%;
+}
+
+.pinkdiagrp {
+    position: absolute;
+    margin-top: -128%;
+    margin-left: -2%;
+}
+
+.contentprice {
+    margin-top: -20%;
+}
+
+
+.yeldiagrp {
+    position: absolute;
+    margin-top: -130%;
+    margin-left: -2%;
+}
+
+section .containercontact .contactinfo {
+    position: absolute;
+    width: 299px;
+    height: calc(100% - 239px);
+    background-image: linear-gradient(to right, #145a92 45%,#2196f3);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-left: 34.5%;
+}
+
+section .containercontact .contactForm {
+    height: 57%;
+    position: absolute;
+    width: 26.5%;
+    background: transparent;
+    color: white;
+    left: 12.5%;
+    justify-content: center;
+    border-radius: 15px;
+    padding-bottom: 8%;
+    /* margin-top: -5%; */
+    padding-bottom: 13%;
+}
+
+#map{
+    width: 262px;
+}
+
+.mapcap h4 {
+    font-weight: 100;
+    font-size: 11px;
+    margin-left: 5%;
+    margin-top: -1.5%;
+}
     .swiper-button-next::after{
         position: absolute;
         margin-left: -78px;
@@ -9537,8 +9848,8 @@ position: relative;
     }
 
     .logo{
-        margin-top: 57%;
-        margin-left: 15%;
+margin-top: 57%;
+    margin-left: 19%;
     }
 
     h1.emailfooter{
@@ -9553,8 +9864,8 @@ position: relative;
     }
 
     img#nf{
-        margin-top: 243%;
-        margin-left: -9.5%;
+     margin-top: 302%;
+    margin-left: -9%;
     }
 
     footer p{
@@ -9563,7 +9874,7 @@ position: relative;
     }
 
     a#btnhomefoot.fade-inbook.btn{
-        margin-left: 14%;
+        margin-left: 23%;
     }
 
     .fbfbfb{
@@ -9571,6 +9882,22 @@ position: relative;
     margin-left: -3%;
 }
 
+.coneng{
+    margin-left: 18%;
+}
+
+.confin{
+    margin-left: 18%;
+}
+
+.iconf {
+    margin-left: 25%;
+    margin-top: 58%;
+}
+
+.contentprice1 {
+    margin-top: -12%;
+}
 
 
 }
