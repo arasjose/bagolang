@@ -6715,8 +6715,8 @@ margin-left: 3%;
 
 #contact{
     margin-top: -70%;
-    padding-top: 10%;
-    top: 0px;
+    padding-top: 20%;
+    top: -60px;
     margin-left: 22.5px;
     }
 
@@ -7061,11 +7061,11 @@ section #book1.contactForm {
         position: absolute;
     }
     #pricing{
-    margin-top: 90%;
+    margin-top: 50%;
     padding-top: 25%;
     top: 100px;
     position: relative;
-    padding-bottom: 0%;
+    padding-bottom: 20%%;
     }
 
 
