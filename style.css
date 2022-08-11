@@ -7070,14 +7070,9 @@ margin-top: 105%;
     }
 
 
-                .pricingplan{
-                    position: relative;
-                    top: 0;
-                    margin-top: 0;
-                }
 
     section.sectionslid{
-        margin-top: 20%;
+        margin-top: -20%;
         padding-top: 20%;
         top: -60px;
     }
