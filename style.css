@@ -6715,7 +6715,7 @@ margin-left: 3%;
 
 #contact{
     margin-top: -70%;
-    padding-top: 100%;
+    padding-top: 20%;
     top: -60px;
     margin-left: 22.5px;
     }
@@ -7081,7 +7081,9 @@ section #book1.contactForm {
 
     #contact{
         margin-top: -45%;
-        top: -70px;
+
+        top: 0px;
+        padding-top: 10%;
     }
 
     .fbfbfb{
