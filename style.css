@@ -7081,6 +7081,7 @@ section #book1.contactForm {
 
     #contact{
         margin-top: -70%;
+        top: -70px;
     }
 
     .fbfbfb{
