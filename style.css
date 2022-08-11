@@ -7079,6 +7079,7 @@ margin-top: 105%;
     section.sectionslid{
         margin-top: 20%;
         padding-top: 20%;
+        top: -200px;
     }
 
     #contact{
