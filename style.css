@@ -6297,19 +6297,7 @@ section #book1.contactForm {
 @media (max-width:450px){
 
 
-    #pricing{
-        padding-top: 30%;
-    position: relative;
-    background: transparent;
-    margin-top: 57%;
-    top: 0px;
-    margin-left: 4px;
-    padding-bottom: 20%;
-}
-
-section.sectionslid{
-    position: relative;
-    padding-top: 5%;
+ 
 }
 
 
@@ -6611,13 +6599,7 @@ position: relative;
     width: 100%;
 }
 
-section.sectionslid{
-    position: relative;
-    padding-top: 10%;
-    width: 367px;
-    margin-top: 5%;
-    
-}
+
 
 .headingpp h1{
     justify-content: center;
@@ -7040,6 +7022,24 @@ section #book1.contactForm {
                     top: 0;
                     margin-top: 0;
                 }
+
+
+    #pricing{
+    padding-top: 30%;
+    position: relative;
+    background: transparent;
+    margin-top: 57%;
+    top: 0px;
+    margin-left: 4px;
+    padding-bottom: 20%;
+}
+
+section.sectionslid{
+    position: relative;
+    padding-top: 15%;
+    width: 367px;
+    margin-top: 5%;
+   
 
 
 
