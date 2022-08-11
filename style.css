@@ -5870,7 +5870,8 @@ section.container{
 
 section.sectionslid{
     position: relative;
-    padding-top: 20%;
+    padding-top: 25%;
+    margin-top: 5%;
 }
 
 .headingpp h1{
