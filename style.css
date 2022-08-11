@@ -6297,10 +6297,6 @@ section #book1.contactForm {
 @media (max-width:450px){
 
 
- 
-}
-
-
 .imgb img {
     margin-left: 3.8%;
     margin-top: -9.7%;
@@ -7043,7 +7039,7 @@ section.sectionslid{
 
 
 
-
+}
 
 }
 
@@ -7081,6 +7077,7 @@ section.sectionslid{
     }
 
     #contact{
+           margin-top: 0%;
     padding-top: 15%;
     top: -300px;
     margin-left: 22.5px;
