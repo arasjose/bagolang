@@ -6695,7 +6695,12 @@ margin-left: 3%;
 }
 
 
-
+#contact{
+    margin-top: -70%;
+    padding-top: 20%;
+    top: -60px;
+    margin-left: 22.5px;
+    }
 
 
 
@@ -7035,7 +7040,7 @@ section.sectionslid{
     width: 367px;
     margin-top: 5%;
    
-}
+
 
 
 
@@ -7077,7 +7082,7 @@ section.sectionslid{
 
     #contact{
     padding-top: 15%;
-    top: 0px;
+    top: -300px;
     margin-left: 22.5px;
     }
 
