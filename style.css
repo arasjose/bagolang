@@ -6298,12 +6298,13 @@ section #book1.contactForm {
 
 
     #pricing{
-        padding-top: 38%;
+        padding-top: 28%;
     position: relative;
     background: transparent;
     margin-top: 87%;
     top: -100px;
     margin-left: 4px;
+    padding-bottom: 10%;
 }
 
 section.sectionslid{
@@ -7062,9 +7063,9 @@ section #book1.contactForm {
     #pricing{
     margin-top: 90%;
     padding-top: 20%;
-    top: 90px;
+    top: 100px;
     position: relative;
-    padding-bottom: 56%;
+    padding-bottom: 65%;
     }
 
 
