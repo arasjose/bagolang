@@ -5870,8 +5870,7 @@ section.container{
 
 section.sectionslid{
     position: relative;
-    padding-top: 25%;
-    margin-top: 5%;
+    padding-top: 20%;
 }
 
 .headingpp h1{
@@ -6311,6 +6310,7 @@ section #book1.contactForm {
 section.sectionslid{
     position: relative;
     padding-top: 5%;
+    margin-top: 5%;
 }
 
 
@@ -6614,9 +6614,9 @@ position: relative;
 
 section.sectionslid{
     position: relative;
-    padding-top: 10%;
+    padding-top: 15%;
     width: 367px;
-    margin-top: 5%;
+    margin-top: 15%;
     
 }
 
