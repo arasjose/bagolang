@@ -6297,6 +6297,22 @@ section #book1.contactForm {
 @media (max-width:450px){
 
 
+    #pricing{
+        padding-top: 30%;
+    position: relative;
+    background: transparent;
+    margin-top: 57%;
+    top: 0px;
+    margin-left: 4px;
+    padding-bottom: 20%;
+}
+
+section.sectionslid{
+    position: relative;
+    padding-top: 5%;
+}
+
+
 .imgb img {
     margin-left: 3.8%;
     margin-top: -9.7%;
@@ -6595,7 +6611,13 @@ position: relative;
     width: 100%;
 }
 
-
+section.sectionslid{
+    position: relative;
+    padding-top: 10%;
+    width: 367px;
+    margin-top: 5%;
+    
+}
 
 .headingpp h1{
     justify-content: center;
@@ -7020,26 +7042,8 @@ section #book1.contactForm {
                 }
 
 
-    #pricing{
-    padding-top: 30%;
-    position: relative;
-    background: transparent;
-    margin-top: 57%;
-    top: 0px;
-    margin-left: 4px;
-    padding-bottom: 25%;
-}
-
-section.sectionslid{
-    position: relative;
-    padding-top: 25%;
-    width: 367px;
-    margin-top: 5%;
-   
 
 
-
-}
 
 }
 
@@ -7057,10 +7061,10 @@ section.sectionslid{
         position: absolute;
     }
     #pricing{
-    margin-top: 105%;
-    padding-top: 30%;
+margin-top: 102%;
+    padding-top: 27%;
     position: relative;
-    padding-bottom: 20%;
+    padding-bottom: 25%;
     }
 
 
@@ -7071,15 +7075,13 @@ section.sectionslid{
                 }
 
     section.sectionslid{
-        margin-top: 8%;
-        padding-top: 20%;
-        top: 0px;
+        margin-top: 5%;
     }
 
     #contact{
-           margin-top: 0%;
-    padding-top: 15%;
-    top: -300px;
+           margin-top: -70%;
+    padding-top: 20%;
+    top: -60px;
     margin-left: 22.5px;
     }
 
