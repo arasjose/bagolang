@@ -550,6 +550,16 @@ transition: 2s;
     pointer-events: none;
 }
 
+.image1 img{
+width: 70vw;
+    animation: fldoat 3s linear infinite;
+    position: absolute;
+    margin-left: 30%;
+    overflow: hidden;
+    margin-top: 5%;
+    z-index: 9;
+    
+}
 .bottom .servicesb{
 margin-top: 34px;
     font-size: 7px;
