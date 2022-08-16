@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>	Book Now </title>
+	<link rel="stylesheet" type="text/css" href="stylecontact.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <link rel="shortcut icon" href="/assets/favicon.ico">
+    <!-- custom css file link  -->
+
+    <!-- ===== Link Swiper's CSS ===== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!-- ===== Fontawesome CDN Link ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+<body>
+
+  
+    <div class="image">
+        <img src="kamay.PNG" alt="">
+    </div>
+
+
+<div class="homeee">
+
+ <section  class="popopop" id="contact bookhome popbackg">
+        <div  class="bookhome">
+  <div class="headngform">
+            <h2>Let us do the work!</h2>
+      </div>
+    <div class="contactinfo">
+    <div id="book1" class="contactForm">
+      <div class="formBoxpop">
+        <div class="inputBox w50">
+          <form name="google-sheet" method="POST">
+                    <div id="form_alerts"></div>
+
+
+        <div class="inputBox w50">
+        
+
+
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="" required>
+                    </div>
+
+
+
+
+                            <div class="form-group mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="" required>
+                    </div>
+
+
+                    <div class="form-group mb-3">
+                        <label for="number" class="form-label">Contact Number</label>
+                        <input type="number" id="number" name="number" class="form-control" placeholder="" required>
+                    </div>
+
+    </div>
+
+                    <div style="margin-top: -3%; " class="form-group mb-3 mb-4">
+                        <label for="service" class="form-label">Choose service:</label>
+                        <select type="service" id="service" name="service" class="form-control" placeholder="" required>
+                              <option value="none"></option>
+    <option value="Window Cleaning">Window Cleaning</option>
+    <option value="Home Cleaning">Home Cleaning</option>
+        <option value="Touring Caravan">Touring Caravan</option>
+    <option value="Gardening">Gardening</option>
+                        </select>
+
+
+
+                        <div class="calendar">
+                          <label for="date" class="form-label">Choose a schedule:</label>
+                          <input type="date" id="date" name="date" placeholder="Choose preferred date" required>
+                        </div>
+
+
+            
+    <label for="message" class="form-label1">
+  </label>
+
+
+   
+<div class="form-group mb-3">
+                        <label for="message" class="form-label"></label>
+                        <textarea type="message" id="message" name="message" class="form-control" placeholder="Write your message here" required></textarea>
+                    </div>
+
+
+                    
+
+
+
+
+
+
+
+
+
+        <div class="inputBox w100">
+
+
+
+
+                <input type="submit" id="send" class="btn1" value="Send" onclick="message()">
+
+              <a class="btn1 contact1" href="index.html">Back</a>
+
+    
+        <div class="message">
+          <div class="success" id="success">
+            <img src="cirx.png">            
+          </div>
+          <div class="danger" id="danger">
+            Fields Can't be Empty!
+
+
+          </div>
+          
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+      </div>
+
+
+
+    </div>
+</form>
+
+
+
+  </div>
+
+</div>
+
+</section>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbygfe_moTYuRIlZFRLKxA9d7qh2ds9giVdk1RDWxqQlT-izOHHARTZ_dJTtiF13TzOHmQ/exec'
+        const form = document.forms['google-sheet']
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => $("#form_alerts").html("<div class='bubbleup1' style='--i:0';> </div> <div class='bubbleup2' style='--i:0';> </div> <div class='alert alert-success'> We received your message, <br> we'll contact you soon. </div> <div class='alertbelow'> Please expect to receieve an email or call with your free quotation and confirmation today. Thank you! </div> <div class='bubbleup3' style='--i:0';> </div> <div class='bubbleup4' style='--i:0';> </div>"))
+            .catch(error => $("#form_alerts").html("<div class='alert alert-danger'><h1>Message not sent. <br> Please try again.</div></h1>"))
+        })
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbygfe_moTYuRIlZFRLKxA9d7qh2ds9giVdk1RDWxqQlT-izOHHARTZ_dJTtiF13TzOHmQ/exec'
+        const form = document.forms['google-sheet']
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => $("#form_alerts").html("<div class='alert alert-success'> We received your message, <br> we'll contact you soon. </div>" ))
+            .catch(error => $("#form_alerts").html("<div class='alert alert-danger'>Contact message not sent.</div>"))
+        })
+    </script>
+
+
+<!--
+<section>
+  
+  <div class="quote">
+  <button>Get a free quote today!</button>
+  </div>
+</section>
+-->
+
+
+
+ 
+<!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+
+      loop: false,
+      loopFillGroupWithBlank: true,
+
+
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+
+
+breakpoints:{
+
+
+
+  400: {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    slidesPerGroup: 1
+  },
+
+1214: {
+  slidesPerView: 3,
+  spaceBetween: 20,
+slidesPerGroup: 3
+},
+
+
+
+
+
+}
+    });
+  </script>
+
+<script type="text/javascript">
+  function togglePopup(){
+    document.getElementById("popup-1").classList.toggle("active");
+  }
+</script>
+
+
+<script>
+
+    document.getElementById("btnhome1").addEventListener("click", function()
+  {
+    var bookhome=document.getElementById("contact bookhomehome");
+    if(bookhome.style.display=="block")
+    {
+      bookhome.style.display="none";
+    }
+    else
+    {
+      bookhome.style.display="block";
+
+    }
+  })
+
+
+      document.getElementById("btn11").addEventListener("click", function()
+  {
+    var book1=document.getElementById("contact book1");
+    if(book1.style.display=="block")
+    {
+      book1.style.display="none";
+    }
+    else
+    {
+      book1.style.display="block";
+
+    }
+  })
+
+
+
+
+    document.getElementById("btn3").addEventListener("click", function()
+  {
+    var book3=document.getElementById("contact book3");
+    if(book3.style.display=="block")
+    {
+      book3.style.display="none";
+    }
+    else
+    {
+      book3.style.display="block";
+
+    }
+  })
+  </script>
+
+
+
+
+<script>
+
+    document.getElementById("btnhome").addEventListener("click", function()
+  {
+    var bookhome=document.getElementById("contact bookhome");
+    if(bookhome.style.display=="block")
+    {
+      bookhome.style.display="none";
+    }
+    else
+    {
+      bookhome.style.display="block";
+
+    }
+  })
+
+  document.getElementById("btn1").addEventListener("click", function()
+  {
+    var book1=document.getElementById("contact book1");
+    if(book1.style.display=="block")
+    {
+      book1.style.display="none";
+    }
+    else
+    {
+      book1.style.display="block";
+
+    }
+  })
+
+
+
+
+    document.getElementById("btn3").addEventListener("click", function()
+  {
+    var book3=document.getElementById("contact book3");
+    if(book3.style.display=="block")
+    {
+      book3.style.display="none";
+    }
+    else
+    {
+      book3.style.display="block";
+
+    }
+  })
+
+
+</script>
+
+<script>
+  document.getElementById("btn2").addEventListener("click", function()
+  {
+    var book1=document.getElementById("contact book1");
+    if(book1.style.display=="block")
+    {
+      book1.style.display="none";
+    }
+    else
+    {
+      book1.style.display="block";
+
+    }
+  })
+
+
+
+  document.getElementById("btn4").addEventListener("click", function()
+  {
+    var book4=document.getElementById("contact book3");
+    if(book4.style.display=="block")
+    {
+      book4.style.display="none";
+    }
+    else
+    {
+      book4.style.display="block";
+
+    }
+  })
+
+
+    document.getElementById("btn5").addEventListener("click", function()
+  {
+    var book5=document.getElementById("contact bookhome");
+    if(book5.style.display=="block")
+    {
+      book5.style.display="none";
+    }
+    else
+    {
+      book5.style.display="block";
+
+    }
+  })
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  function toggle(){
+    var blur = document.getElementById('blurplease');
+    blur.classList.toggle('activeblur')
+  
+  }
+</script>
+
+
+
+<script src="app.js"></script>
+
+
+
+<script src="message.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

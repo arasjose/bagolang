@@ -735,6 +735,12 @@ visibility: visible;
 
 }
 
+.homeee{
+        background: linear-gradient(to right, #145a92 45%,#2196f3);
+
+
+}
+
 
 
 .home .content h3{
@@ -2709,7 +2715,7 @@ section{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: white;
+    background: linear-gradient(to right, #145a92 45%,#2196f3);
 }
 
 section#contact::before{
@@ -2720,6 +2726,10 @@ section#contact::before{
     width: 50%;
     height: 100%;
     background: white;
+}
+
+.bookhome{
+    margin-top: 5.5%;
 }
 
 #contact{
@@ -2829,6 +2839,27 @@ section .containercontact .contactinfo .sci li:hover a img{
     opacity: 1;
 }
 
+.image img{
+    width: 70vw;
+    animation: fldoat 3s linear infinite;
+    position: absolute;
+    margin-left: 30%;
+    overflow: hidden;
+    margin-top: 5%;
+    z-index: 9;
+}
+
+
+section.popopop {
+
+        top: -4rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    }
+
+
 
 
 
@@ -2872,7 +2903,7 @@ margin-top: 12px;
 label {
     font-size: 10px;
     font-weight: 300;
-    color: #333;
+    color: white;
 }
 
 select {
@@ -3038,7 +3069,7 @@ width: 101%;
     padding: 0;
     animation: 0s linear 0s 1 normal forwards running fadeinout;
     opacity: 0;
-    padding-top: 44%;
+    padding-top: 55%;
     white-space: nowrap;
     border-radius: 20px;
     padding-left: 8%;
@@ -3055,7 +3086,7 @@ width: 101%;
     font-size: 13px;
     z-index: 999999999;
     position: absolute;
-    margin-top: 63%;
+    margin-top: 67%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -3087,7 +3118,7 @@ position: absolute;
     animation: fadeIn ease 4s;
     -ms-animation: fadeIn ease 4s;
     animation-iteration-count: infinite;
-    margin-top: -35%;
+    margin-top: -26%;
     margin-left: 57%;
 }
 
@@ -3136,7 +3167,7 @@ position: absolute;
     animation: fadeIn ease 4s;
     -ms-animation: fadeIn ease 4s;
     animation-iteration-count: infinite;
-    margin-top: 77%;
+    margin-top: 85%;
     margin-left: 74%;
 }
 
@@ -3166,7 +3197,7 @@ position: absolute;
     animation: fadeIn ease 4s;
     -ms-animation: fadeIn ease 4s;
     animation-iteration-count: infinite;
-    margin-top: 86%;
+    margin-top: 100%;
     margin-left: -40%;
 
 }
@@ -3481,6 +3512,23 @@ margin-top: -30%;
     margin-top: -23%;
 }
 
+.contact1{
+    align-items: center;
+    padding: 2%;
+    border: none;
+    width: 34%;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 14%;
+    position: absolute;
+    padding-left: 36px;
+    margin-left: 3%;
+    border-radius: 15px;
+    background: skyblue;
+    z-index: 9999999999999999999999999999;
+}
+
 
 .custom-shape-divider-top-1657360494 {
     position: absolute;
@@ -3769,7 +3817,7 @@ color: white;
 
 
 .form-group.mb-3{
-    margin-top: -4%;
+    margin-top: -6%;
 }
 
 input{
@@ -4135,6 +4183,7 @@ position: absolute;
         font-size: 55%;
     }
 
+
 }
 
 @media (max-width:991px){
@@ -4143,6 +4192,58 @@ position: absolute;
         display: none;
     }
 
+body{
+    height: 100vh;
+        background: linear-gradient(to right, #145a92 45%,#2196f3);
+
+}
+
+.contact1{
+    align-items: center;
+    padding: 2%;
+    border: none;
+    width: 34%;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 14%;
+    position: absolute;
+    padding-left: 36px;
+    margin-left: 3%;
+    border-radius: 15px;
+    background: skyblue;
+    z-index: 9999999999999999999999999999;
+}
+label.active{
+    color: white;
+}
+
+a#btnhome.btn{
+        align-items: center;
+    padding: 2%;
+    border: none;
+    width: 45%;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 30%;
+    padding-left: 37px;
+    position: relative;
+    background: ;
+}
+
+a.back{
+        align-items: center;
+    padding: 2%;
+    border: none;
+    width: 45%;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 30%;
+    padding-left: 15px;
+    position: relative;
+}
 
 #cardhide{
     display: none;
@@ -4385,17 +4486,21 @@ margin-top: -129%;
 }
 
 section.popopop{
-        background: url(mobmob1.png);
-
+    background: url(mobmob1.png);
     top: -4rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background: linear-gradient(to right, #145a92 45%,#2196f3);
+    min-width: 100%;
+}
+
+.homeee{
+        background: linear-gradient(to right, #145a92 45%,#2196f3);
+
 }
 
 .popopop{
-    background: url(mobmob1.png);
+    background: linear-gradient(to right, #145a92 45%,#2196f3);
     position: absolute;    
     z-index: 99999999999999999999;
     }
@@ -6827,7 +6932,7 @@ background: linear-gradient(to bottom right, #6595E6 45%, #1B4A9B);
     border-radius: 15px;
     display: inline-block;
     align-items: center;
-    margin-top: -14%;
+    margin-top: -17%;
     padding-top: 47%;
     padding-left: 1%;
     justify-content: center;
@@ -6908,12 +7013,12 @@ position: absolute;
 
 
 .headngform h2{
-font-size: 30px;
-    margin-top: 9%;
+     font-size: 30px;
+    margin-top: -30%;
     position: absolute;
     color: white;
     opacity: 0.9;
-    margin-left: 0%;
+    margin-left: -1%;
 }
 
 label.fullname{
@@ -6938,8 +7043,8 @@ align-items: center;
 }
 
 .btn1{
-        align-items: center;
-    padding: 4%;
+      align-items: center;
+    padding: 2%;
     border: none;
     width: 45%;
     color: white;
@@ -6947,8 +7052,10 @@ align-items: center;
     font-size: 15px;
     margin-top: 30%;
     position: relative;
-    padding-left: 15px;
+    padding-left: 38px;
     margin-left: 11%;
+    border-radius: 15px;
+    background: skyblue;
 }
 
 input#btn5.btn1{
