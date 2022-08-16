@@ -7066,12 +7066,13 @@ section #book1.contactForm {
 
 
  #pricing{
-        padding-top: 50%;
+        padding-top: 30%;
     position: relative;
     background: transparent;
     margin-top: 57%;
     top: 0px;
     margin-left: 4px;
+    padding-bottom: 20%;
 }
 
 section.sectionslid{
