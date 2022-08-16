@@ -7066,7 +7066,7 @@ section #book1.contactForm {
         padding-top: 30%;
     position: relative;
     background: transparent;
-    margin-top: 0%;
+    margin-top: 57%;
     top: 0px;
     margin-left: 4px;
     padding-bottom: 20%;
@@ -7091,6 +7091,12 @@ section.sectionslid{
 
 }
 
+@media screen and (max-width: 414px)
+              and (min-height: 895px){
+                #pricing{
+                    margin-top: -200%;
+                }
+              }
 
 
 
