@@ -7095,6 +7095,7 @@ section.sectionslid{
               and (min-height: 895px){
                 #pricing{
                     margin-top: -200%;
+                    top: -200px;
                 }
               }
 
