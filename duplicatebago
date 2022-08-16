@@ -7083,7 +7083,7 @@ section #book1.contactForm {
     margin-top: 57%;
     top: 0px;
     margin-left: 4px;
-    padding-bottom: 0%;
+    padding-bottom: 20%;
 }
 
 section.sectionslid{
