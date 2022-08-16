@@ -6344,9 +6344,6 @@ section #book1.contactForm {
 @media (max-width:450px){
 
 
-
-
-
 .imgb img {
     margin-left: 3.8%;
     margin-top: -9.7%;
@@ -7069,7 +7066,7 @@ section #book1.contactForm {
         padding-top: 30%;
     position: relative;
     background: transparent;
-    margin-top: 57%;
+    margin-top: 0%;
     top: 0px;
     margin-left: 4px;
     padding-bottom: 20%;
