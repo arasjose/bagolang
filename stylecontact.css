@@ -7139,7 +7139,7 @@ display: flex;
 
 section #book1.contactForm {
     z-index: 0;
-    padding: 85px 50px;
+    padding: 185px 50px;
     background: transparent;
     padding-left: 50px;
     width: 99%;
@@ -7222,6 +7222,12 @@ section.sectionslid{
                     top: -25rem;
                     padding-top: -200%;
                 }
+
+                section #book1.contactForm {
+                    width: 150%;
+                }
+
+
               }
 
 
