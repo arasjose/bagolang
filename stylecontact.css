@@ -2851,8 +2851,6 @@ section .containercontact .contactinfo .sci li:hover a img{
 
 
 section.popopop {
-
-        top: -4rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4195,8 +4193,13 @@ position: absolute;
 body{
     height: 100vh;
         background: linear-gradient(to right, #145a92 45%,#2196f3);
-
 }
+
+header, .fintranslate, .usatranslate, .image{
+    display: none;
+}
+
+
 
 .contact1{
     align-items: center;
@@ -7139,7 +7142,7 @@ section #book1.contactForm {
     padding: 85px 50px;
     background: transparent;
     padding-left: 50px;
-    width: 99%;
+    width: 109%;
     height: 560px;
     box-shadow: 0 0.5rem 1rem rgb(0 0 5 / 25%);
     border-top: 1px solid rgb(0 0 0 / 25%);
