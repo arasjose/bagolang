@@ -4258,7 +4258,9 @@ width: 70px;
         .features .box-container .box{
     flex:1 1 20rem;
     border:.1rem solid rgba(0,0,0,.2);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    box-shadow: 2px 1px 14px 2px rgba(101,149,230,0.75);
+-webkit-box-shadow: 2px 1px 14px 2px rgba(101,149,230,0.75);
+-moz-box-shadow: 2px 1px 14px 2px rgba(101,149,230,0.75);
     margin:1.5rem;
     padding:3rem 2rem;
     border-radius: .5rem;
@@ -7064,19 +7066,17 @@ section #book1.contactForm {
 
 
  #pricing{
-        padding-top: 30%;
+        padding-top: 0%;
     position: relative;
     background: transparent;
     margin-top: 57%;
     top: 0px;
     margin-left: 4px;
-    padding-bottom: 20%;
 }
 
 section.sectionslid{
     position: relative;
-    padding-top: 5%;
-    margin-top: 5%;
+
 }
 
 
