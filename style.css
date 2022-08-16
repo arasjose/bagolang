@@ -7069,7 +7069,7 @@ section #book1.contactForm {
         padding-top: -50%;
     position: relative;
     background: transparent;
-    margin-top: 0%;
+    margin-top: -50%;
     top: 0px;
     margin-left: 4px;
 }
