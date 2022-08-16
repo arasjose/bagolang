@@ -7069,15 +7069,15 @@ section #book1.contactForm {
         padding-top: 0%;
     position: relative;
     background: transparent;
-    margin-top: 0%;
-    top: -100px;
+    margin-top: 57%;
+    top: 0px;
     margin-left: 4px;
-    padding-bottom: -25%;
 }
 
 section.sectionslid{
     position: relative;
     padding-top: 5%;
+    margin-top: 5%;
 }
 
 
