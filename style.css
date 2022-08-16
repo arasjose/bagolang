@@ -7207,7 +7207,7 @@ margin-top: 105%;
     }
 
 section.sectionslid{
-    padding-top: 14%;
+    padding-top: 5%;
     margin-left: 4%;
 }
 
@@ -7236,13 +7236,12 @@ section.sectionslid{
 }
 
 #pricing{
-    margin-top: 110%;
+    margin-top: 100%;
     padding-top: 28%;
     position: relative;
 }
 
 #contact{
-    margin-top: -85%;
     padding-top: 42%;
 }
 
@@ -9098,7 +9097,9 @@ section.container{
 
 section.sectionslid{
     position: relative;
-    padding-top: 20%;
+    padding-top: 0%;
+    top: 0;
+    margin-top: -10%;
 }
 
 .headingpp h1{
@@ -9564,7 +9565,7 @@ position: relative;
 
 
 @media screen and (max-width:  360px)
-              and (max-height: 740px){
+              and (min-height: 740px){
               
 #pricing{
 
@@ -9573,7 +9574,7 @@ position: relative;
 }
 
 section.sectionslid{
-margin-top: -12%;
+margin-top: 0%;
 }
 
 #contact{
