@@ -7083,7 +7083,7 @@ section #book1.contactForm {
     margin-top: 57%;
     top: 0px;
     margin-left: 4px;
-    padding-bottom: 0%;
+    padding-bottom: 20%;
 }
 
 section.sectionslid{
@@ -7111,15 +7111,14 @@ section.sectionslid{
                     margin-top: 0%;
                     top: 0rem;
                     padding-top: 0%;
-                    padding-bottom: 0%;
                 }
 
                 section.sectionslid{
-                    margin-top: 80%;
+                    margin-top: 100%;
                 }
 
                 #serveee{
-                    margin-bottom: 0%;
+                    margin-bottom: -50%;
                     padding-bottom: -50%;
                 }
               }
