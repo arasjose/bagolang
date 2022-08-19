@@ -7083,9 +7083,7 @@ section #book1.contactForm {
 
 section.sectionslid{
     position: relative;
-    padding-top: 5%;
-    margin-top: 5%;
-    top: 100px;
+    margin-top: 100%;
 }
 
 
