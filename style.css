@@ -7110,25 +7110,6 @@ section.sectionslid{
 
 }
 
-@media screen and (max-width: 414px)
-{
-                #pricing{
-                    margin-top: 0%;
-                    top: 0rem;
-                    padding-top: 0%;
-                    padding-bottom: 0%;
-                }
-
-                section.sectionslid{
-                    margin-top: 80%;
-                }
-
-                #serveee{
-                    margin-bottom: 0%;
-                    padding-bottom: 10%;
-                }
-              }
-
 
 
 @media screen and (max-width:  414px)
