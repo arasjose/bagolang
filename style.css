@@ -7111,14 +7111,15 @@ section.sectionslid{
                     margin-top: 0%;
                     top: 0rem;
                     padding-top: 0%;
+                    padding-bottom: 0%;
                 }
 
                 section.sectionslid{
-                    margin-top: 100%;
+                    margin-top: 80%;
                 }
 
                 #serveee{
-                    margin-bottom: -50%;
+                    margin-bottom: 0%;
                     padding-bottom: -50%;
                 }
               }
