@@ -7072,7 +7072,7 @@ section #book1.contactForm {
 
 
  #pricing{
-        padding-top: 30%;
+        padding-top: 130%;
     position: relative;
     background: transparent;
     margin-top: 57%;
@@ -7083,9 +7083,8 @@ section #book1.contactForm {
 
 section.sectionslid{
     position: relative;
-    margin-top: 100%;
-    padding-top: 100%;
-    top: 1000px;
+    padding-top: 5%;
+    margin-top: 5%;
 }
 
 
