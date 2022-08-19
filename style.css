@@ -7077,20 +7077,19 @@ section #book1.contactForm {
 
 
  #pricing{
-        padding-top: -150%;
+        padding-top: 30%;
     position: relative;
     background: transparent;
-    margin-top: 17%;
-    top: -500px;
+    margin-top: 57%;
+    top: 0px;
     margin-left: 4px;
-    padding-bottom: 100%;
+    padding-bottom: 0%;
 }
 
 section.sectionslid{
     position: relative;
-    padding-top: -50%;
-    margin-top: -10%;
-    top: 5px;
+    padding-top: 0%;
+    margin-top: 0%;
 }
 
 
@@ -7101,10 +7100,6 @@ section.sectionslid{
     margin-left: 22.5px;
     }
 
-#serveee{
-    padding-bottom: -10%;
-    margin-bottom: -10%;
-}
 
 
 
@@ -7125,7 +7120,7 @@ section.sectionslid{
 
                 #serveee{
                     margin-bottom: 0%;
-                    padding-bottom: 10%;
+                    padding-bottom: -50%;
                 }
               }
 
