@@ -7089,7 +7089,7 @@ section.sectionslid{
 
 
 #contact{
-      margin-top: -500%;
+      margin-top: -100%;
     padding-top: 20%;
     top: -60px;
     margin-left: 22.5px;
@@ -7098,6 +7098,13 @@ section.sectionslid{
 
     #serveee{
 margin-bottom: 125%;
+}
+
+
+#container{
+padding-top: -500%;
+margin-top: -500%;
+top: -500px;
 }
 
 }
