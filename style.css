@@ -7081,6 +7081,10 @@ section.sectionslid{
     top: -100px;
 }
 
+.container{
+    margin-top: -50%;
+}
+
 
 #contact{
       margin-top: -100%;
