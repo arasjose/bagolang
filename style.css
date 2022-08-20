@@ -7082,7 +7082,8 @@ section.sectionslid{
 }
 
 .container{
-    padding-top: 50%;
+    margin-top: 50%;
+    top: 90px;
 }
 
 
