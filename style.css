@@ -7077,8 +7077,8 @@ section #book1.contactForm {
         padding-top: -100%;
     position: relative;
     background: transparent;
-    margin-top: -100%;
-    top: -100px;
+    margin-top: 0%;
+    top: 0px;
     margin-left: 4px;
     padding-bottom: 20%;
 }
@@ -7100,8 +7100,7 @@ section.sectionslid{
 
     #serveee{
     padding-top: 0;
-    padding-bottom: -150%;
-    position: relative;
+    padding-bottom: 5%;
 }
 
 }
@@ -7110,7 +7109,8 @@ section.sectionslid{
 @media screen (max-width:  414px){
     #pricing{
         margin-top: -1000%;
-        top: 100px;
+        top: -1000px;
+        padding-top: -100%;
     }
 }
 
