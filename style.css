@@ -6642,14 +6642,14 @@ margin-top: -10%;
 
 .container{
 position: relative;
-    margin-top: 0%;
+    margin-top: -100%;
     justify-content: center;
     align-items: center;
     margin-left: 0;
     height: 620px;
     width: 100%;
     padding-top: -50%;
-    top: -100px;
+    top: -5rem;
 }
 
 section.sectionslid{
