@@ -6654,7 +6654,7 @@ position: relative;
 section.sectionslid{
     position: relative;
     width: 367px;
-    margin-top: 55%;
+    margin-top: -55%;
     top: -200px;
     
 }
