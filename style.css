@@ -7103,7 +7103,11 @@ section.sectionslid{
 }
 
 
-@media screen (max-width:  414px){}
+@media screen (max-width:  414px){
+    #pricing{
+        margin-top: -1000%;
+    }
+}
 
 @media screen and (max-width: 414px)
               and (min-height: 800px){
