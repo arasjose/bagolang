@@ -6674,10 +6674,7 @@ section.sectionslid{
     top: -30px;
 }
 
-#serveee{
-    padding-top: 0;
-    padding-bottom: 5%;
-}
+
 
 
 
@@ -7100,10 +7097,21 @@ section.sectionslid{
     margin-left: 22.5px;
     }
 
+
+    #serveee{
+    padding-top: 0;
+    padding-bottom: 50%;
+}
+
 }
 
 
-
+@media screen (max-width:  414px){
+    #pricing{
+        margin-top: -1000%;
+        top: 100px;
+    }
+}
 
 @media screen and (max-width: 414px)
               and (min-height: 800px){
@@ -7217,12 +7225,7 @@ margin-top: 105%;
 
 
 
-@media screen (max-width:  414px){
-    #pricing{
-        margin-top: -1000%;
-        top: 100px;
-    }
-}
+
 
 
 
