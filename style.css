@@ -7074,11 +7074,11 @@ section #book1.contactForm {
 
 
  #pricing{
-        padding-top: -100%;
+        padding-top: -150%;
     position: relative;
     background: transparent;
-    margin-top: 0%;
-    top: 0px;
+    margin-top: -150%;
+    top: -150px;
     margin-left: 4px;
     padding-bottom: 20%;
 }
