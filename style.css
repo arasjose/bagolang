@@ -7078,6 +7078,7 @@ section #book1.contactForm {
     margin-top: -150%;
     top: -150px;
     margin-left: 4px;
+    padding-bottom: 0%;
 }
 
 section.sectionslid{
@@ -7096,13 +7097,13 @@ section.sectionslid{
 
 
     #serveee{
-
+margin-bottom: -100%;
 }
 
 }
 
 
-@media screen (max-width:  424px){
+@media screen (max-width:  414px){
     #pricing{
         margin-top: -1000%;
         top: -1000px;
