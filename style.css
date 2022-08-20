@@ -7068,9 +7068,8 @@ section #book1.contactForm {
 
   .pricingplan{
                     position: relative;
-                    top: -180px;
-                    margin-top: -100%;
-                    padding-top: -50%;
+                    top: 0;
+                    margin-top: 0;
                 }
 
 
@@ -7101,7 +7100,7 @@ section.sectionslid{
 
     #serveee{
     padding-top: 0;
-    padding-bottom: 5%;
+    padding-bottom: 0%;
 }
 
 }
@@ -7111,7 +7110,6 @@ section.sectionslid{
     #pricing{
         margin-top: -1000%;
         top: -1000px;
-        padding-top: -100%;
     }
 }
 
