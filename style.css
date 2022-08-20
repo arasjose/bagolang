@@ -6653,8 +6653,8 @@ position: relative;
 section.sectionslid{
     position: relative;
     width: 367px;
-    margin-top: 15%;
-    top: 20px;
+    margin-top: 55%;
+    top: -120px;
     
 }
 
@@ -7083,9 +7083,8 @@ section #book1.contactForm {
 
 section.sectionslid{
     position: relative;
-    padding-top: -10%;
+    padding-top: 0%;
     margin-top: 0%;
-    top: 1000px;
 }
 
 
