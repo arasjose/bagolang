@@ -6648,14 +6648,13 @@ position: relative;
     margin-left: 0;
     height: 620px;
     width: 100%;
-
 }
 
 section.sectionslid{
     position: relative;
     width: 367px;
-    margin-top: -55%;
-    top: -200px;
+    margin-top: 15%;
+    top: 20px;
     
 }
 
@@ -7090,7 +7089,7 @@ section.sectionslid{
 
 
 #contact{
-      margin-top: -100%;
+      margin-top: -500%;
     padding-top: 20%;
     top: -60px;
     margin-left: 22.5px;
