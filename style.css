@@ -7106,7 +7106,7 @@ position: absolute;
 }
 
 section#contact{
-    margin-top: -170%;
+    margin-top: -160%;
 }
 }
 
@@ -7121,8 +7121,7 @@ section#contact{
 @media screen and (max-width: 414px)
               and (min-height: 800px){
                 #pricing{
-                    margin-top: 10%;
-                    top: 0rem;
+                    margin-top: 70%;
                     padding-top: 20%;
                 }
 
