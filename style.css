@@ -7085,6 +7085,7 @@ section.sectionslid{
     position: relative;
     padding-top: 0%;
     margin-top: 0%;
+    top: -100px;
 }
 
 
