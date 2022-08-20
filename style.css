@@ -6642,21 +6642,20 @@ margin-top: -10%;
 
 .container{
 position: relative;
-    margin-top: -100%;
+    margin-top: 0%;
     justify-content: center;
     align-items: center;
     margin-left: 0;
     height: 620px;
     width: 100%;
-    padding-top: -50%;
-    top: -5rem;
+
 }
 
 section.sectionslid{
     position: relative;
     width: 367px;
     margin-top: 55%;
-    top: -120px;
+    top: -200px;
     
 }
 
