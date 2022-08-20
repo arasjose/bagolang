@@ -7078,7 +7078,7 @@ section #book1.contactForm {
     position: relative;
     background: transparent;
     margin-top: -100%;
-    top: 0px;
+    top: -100px;
     margin-left: 4px;
     padding-bottom: 20%;
 }
