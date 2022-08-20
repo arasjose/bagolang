@@ -7078,7 +7078,6 @@ section #book1.contactForm {
     margin-top: -150%;
     top: -150px;
     margin-left: 4px;
-    padding-bottom: -100%;
 }
 
 section.sectionslid{
@@ -7106,6 +7105,9 @@ margin-top: 32%;
 position: absolute;
 }
 
+section#contact{
+    margin-top: -500%;
+}
 }
 
 
