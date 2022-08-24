@@ -7152,10 +7152,11 @@ section#contact{
 
 
     #pricing{
-margin-top: 125%;
-    padding-top: 47%;
+margin-top: 105%;
+    padding-top: 27%;
     position: relative;
-    padding-bottom: 25%;
+    padding-bottom: 50%;
+    top: -10rem;
     }
 
 
@@ -7163,13 +7164,13 @@ margin-top: 125%;
     section.sectionslid{
         margin-top: 20%;
         padding-top: 20%;
-        top: -60px;
+        top: -85px;
     }
 
     #contact{
            margin-top: -85%;
     padding-top: 35%;
-    top: 0px;
+    top: 55px;
     margin-left: 22.5px;
     }
 
