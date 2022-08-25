@@ -7147,7 +7147,8 @@ section#contact{
 
     #pricing{
         top: -10rem;
-        padding-top: -100%;
+        padding-top: 0%;
+        margin-top: 0%;
     }
 }
 
