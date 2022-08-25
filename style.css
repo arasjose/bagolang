@@ -7105,15 +7105,16 @@ position: absolute;
 
 section#contact{
     top: -40rem;
+    padding-bottom: -100%;
 }
 
 
 
                 #fut{
 
-        margin-top: -100rem;
-        padding-top: -200%;
-                }
+          margin-bottom: -75%;
+top: -40rem                
+}
                 }
 
 
