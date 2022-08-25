@@ -7131,8 +7131,6 @@ section#contact{
                 }
 
                 #contact{
-                    margin-top: -50%;
-                    top: 0;
                     padding-top: 15%;
                 }
               }
@@ -7155,8 +7153,7 @@ section#contact{
 margin-top: 105%;
     padding-top: 27%;
     position: relative;
-    padding-bottom: 50%;
-    top: -10rem;
+    padding-bottom: 25%;
     }
 
 
