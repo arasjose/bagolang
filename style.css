@@ -7104,8 +7104,7 @@ position: absolute;
 }
 
 section#contact{
-    margin-top: -500%;
-    padding-top: -500%;
+
     top: -50rem;
 }
 }
