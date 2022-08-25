@@ -7104,7 +7104,7 @@ position: absolute;
 }
 
 section#contact{
-
+    padding-bottom: 100%;
     top: 50rem;
 }
 }
