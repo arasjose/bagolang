@@ -7106,7 +7106,7 @@ position: absolute;
 }
 
 section#contact{
-    margin-top: -170%;
+    margin-top: -160%;
 }
 }
 
@@ -7122,8 +7122,8 @@ section#contact{
               and (min-height: 800px){
                 #pricing{
                     margin-top: 70%;
-                    top: 0rem;
                     padding-top: 20%;
+                    top: -25rem;
                 }
 
                 section.sectionslid{
