@@ -7066,19 +7066,16 @@ section #book1.contactForm {
 }
 
 
-  .pricingplan{
 
-                }
 
 
  #pricing{
-        padding-top: -150%;
+        padding-top: -250%;
     position: relative;
     background: transparent;
-    margin-top: -150%;
-    top: -150px;
+    margin-top: -250%;
+    top: 250px;
     margin-left: 4px;
-    padding-bottom: 0%;
 }
 
 section.sectionslid{
@@ -7091,20 +7088,29 @@ section.sectionslid{
 #contact{
       margin-top: -100%;
     padding-top: 20%;
-    top: -60px;
+    top: -260px;
     margin-left: 22.5px;
     }
 
 
     #serveee{
-margin-bottom: 125%;
+margin-bottom: 25%;
 }
 
+
+.container{
+margin-top: 32%;
+position: absolute;
+}
+
+section#contact{
+    margin-top: -160%;
+}
 }
 
 
 @media screen (max-width:  414px){
-    #pricing{
+    #contact{
         margin-top: -1000%;
         top: -1000px;
     }
@@ -7114,8 +7120,8 @@ margin-bottom: 125%;
               and (min-height: 800px){
                 #pricing{
                     margin-top: 70%;
-                    top: 0rem;
                     padding-top: 20%;
+                    top: -25rem;
                 }
 
                 section.sectionslid{
@@ -7123,9 +7129,12 @@ margin-bottom: 125%;
                 }
 
                 #contact{
-                    margin-top: -70%;
-                    top: 0;
-                    padding-top: 15%;
+                    margin-top: 50%;
+                    padding-top: 85%;
+                }
+
+                #fut{
+                    margin-top: 30%;
                 }
               }
 
@@ -7147,7 +7156,8 @@ margin-bottom: 125%;
 margin-top: 105%;
     padding-top: 27%;
     position: relative;
-    padding-bottom: 25%;
+    padding-bottom: 50%;
+    top: -8rem;
     }
 
 
@@ -7155,13 +7165,13 @@ margin-top: 105%;
     section.sectionslid{
         margin-top: 20%;
         padding-top: 20%;
-        top: -60px;
+        top: -85px;
     }
 
     #contact{
            margin-top: -85%;
     padding-top: 35%;
-    top: 0px;
+    top: 65px;
     margin-left: 22.5px;
     }
 
@@ -7212,7 +7222,7 @@ margin-top: 105%;
 #fut {
     width: 100%;
     height: 62vh;
-    margin-top: 25%;
+    margin-top: 50%;
 }
 }
 
