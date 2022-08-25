@@ -7075,7 +7075,7 @@ section #book1.contactForm {
         padding-top: -250%;
     position: relative;
     background: transparent;
-    margin-top: -150%;
+    margin-top: -250%;
     top: -150px;
     margin-left: 4px;
 }
@@ -7136,7 +7136,7 @@ section#contact{
                 }
 
                 #fut{
-                    margin-top: 50%;
+                    margin-top: 30%;
                 }
               }
 
