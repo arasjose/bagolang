@@ -7142,19 +7142,9 @@ section#contact{
               }
 
 
-@media (max-width:  414px){
-
-
-    #pricing{
-        top: -10rem;
-        padding-top: -100%;
-    }
-}
-
-
 
 @media screen and (max-width:  414px)
-              and (min-height: 736px){
+              and (max-height: 736px){
 
 
 
@@ -7166,7 +7156,7 @@ section#contact{
 
 
     #pricing{
-margin-top: 105%;
+margin-top: 205%;
     padding-top: 27%;
     position: relative;
     padding-bottom: 50%;
@@ -7245,9 +7235,14 @@ margin-top: 105%;
 
 
 
+@media (max-width:  414px){
 
 
-
+    #pricing{
+        top: -100rem;
+        padding-top: -100%;
+    }
+}
 
 
 
