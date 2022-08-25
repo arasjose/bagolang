@@ -7078,12 +7078,13 @@ section #book1.contactForm {
     margin-top: -150%;
     top: -150px;
     margin-left: 4px;
+    padding-bottom: 0%;
 }
 
 section.sectionslid{
     position: relative;
-    padding-top: 0%;
-    margin-top: 0%;
+    padding-top: 5%;
+    margin-top: 5%;
 }
 
 
@@ -7099,20 +7100,11 @@ section.sectionslid{
 margin-bottom: 125%;
 }
 
-
-.container{
-margin-top: 32%;
-position: absolute;
-}
-
-section#contact{
-    margin-top: -170%;
-}
 }
 
 
 @media screen (max-width:  414px){
-    #contact{
+    #pricing{
         margin-top: -1000%;
         top: -1000px;
     }
