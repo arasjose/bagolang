@@ -7087,8 +7087,8 @@ section.sectionslid{
 
 #contact{
       margin-top: -100%;
-    padding-top: -190%;
-    top: -110rem;
+    padding-top: 20%;
+    top: -260px;
     margin-left: 22.5px;
     }
 
@@ -7103,7 +7103,11 @@ margin-top: 32%;
 position: absolute;
 }
 
-
+section#contact{
+    margin-top: -500%;
+    padding-top: -500%;
+    top: -50rem;
+}
 }
 
 
