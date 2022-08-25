@@ -7126,9 +7126,9 @@ section#contact{
 @media screen and (max-width: 414px)
               and (min-height: 800px){
                 #pricing{
-                    margin-top: 100%;
+                    margin-top: 70%;
                     padding-top: 20%;
-                    top: -25rem;
+                    top: -20rem;
                 }
 
                 section.sectionslid{
