@@ -7121,6 +7121,11 @@ section#contact{
         margin-top: -1000%;
         top: -1000px;
     }
+
+
+    #pricing{
+        top: -100rem;
+    }
 }
 
 @media screen and (max-width: 414px)
