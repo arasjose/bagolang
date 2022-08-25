@@ -7105,6 +7105,9 @@ margin-top: 32%;
 position: absolute;
 }
 
+section#contact{
+    margin-top: -160%;
+}
 }
 
 
@@ -7150,7 +7153,7 @@ position: absolute;
 
     #pricing{
 margin-top: 105%;
-    padding-top: 27%;
+    padding-top: 47%;
     position: relative;
     padding-bottom: 25%;
     }
